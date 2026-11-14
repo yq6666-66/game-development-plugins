@@ -71,3 +71,5 @@ python3 -m unittest discover -s tests -v
 ## 公开资料蒸馏 · 2026-11-14
 
 [每日研究](docs/research/daily/2026-11-14.md)为玩法闭环 Skill 补充存档关系恢复和重要声音信息覆盖的中英文参考。[验证范围](docs/validation/market-2026-11-14.md)区分包检查与游戏运行；原始日分支独立开展研究，本次整合保留其来源和历史验证范围。
+
+[GitHub 追加蒸馏](docs/research/daily/2026-11-14-github-continuation.md)：补充异步结果、夹具清理、首次状态分歧和测试检出力检查；保持四项 Skills，不增加重复入口。

@@ -45,3 +45,8 @@
 - Add bilingual, on-demand playloop checks for persistence identity/relationships and essential audio information.
 - Record primary-source reading and negative scenarios separately from game execution.
 - Keep the daily branch on current main; do not import or merge the pending navigation/fourth-pass branches.
+
+## Unreleased · GitHub continuation 2026-11-14
+
+- Add bilingual async-result, fixture-cleanup, divergence-localization and known-bad-control guidance from pinned GUT and abagames readings.
+- Distinguish finite evidence from equivalence or causal proof; no upstream runtime or fixture execution claimed.

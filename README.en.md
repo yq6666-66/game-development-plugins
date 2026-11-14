@@ -69,3 +69,5 @@ Reading this bundle does not authorize spending, uploads, game modifications, me
 ## Public-source distillation · 2026-11-14
 
 The [daily research](docs/research/daily/2026-11-14.md) adds bilingual references for recovery relationships and essential audio information to the playloop Skill. [Validation scope](docs/validation/market-2026-11-14.md) distinguishes package checks from game execution. This integration preserves the independent daily branch's sources and historical evidence limits.
+
+[Additional GitHub research](docs/research/daily/2026-11-14-github-continuation.md) adds scoped async-result, fixture-cleanup, state-divergence and detection-power checks without adding another Skill.
