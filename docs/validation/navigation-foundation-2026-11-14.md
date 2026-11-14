@@ -22,10 +22,12 @@ python3 scripts/validate_package.py
 python3 -m unittest discover -s tests -v
 git diff --exit-code -- skills tests scripts docs/VALIDATION.md docs/audits LICENSE
 git diff --check
+git diff HEAD --exit-code -- skills tests scripts docs/VALIDATION.md docs/audits LICENSE
+git diff --cached --check
 ```
 
 - PASS：现有包结构校验；六项单元测试，包括负向测试。
-- PASS：保护项与基线无差异。历史证据没有修改。
+- PASS：保护项与基线无差异。历史证据没有修改。暂存后另行实际执行带 `HEAD` 的保护项差异检查及 `git diff --cached --check`，覆盖暂存内容；普通 `git diff` 单独不覆盖暂存改动。
 - PASS：本次全库 91 条 Markdown 本地文件链接与使用的标题锚点检查；首次运行发现待创建的两条验证报告链接，补齐本文件后复验。检查脚本为本次工作区临时辅助，不扩展正式校验器。
 - PASS：独立只读内容复核覆盖中英首页及四组新文档，未发现阻断问题；审阅时待补的报告链接已创建并复验。
 - 情境检查：新原型可从目标和可撤销假设进入；接手项目先读取真实基线；资源页不是已验证推荐；作品页不虚构已完成游戏；八类不冒充八项 Skill。
