@@ -40,3 +40,8 @@ The independent bilingual selection workflow synthesizes this repository's pinne
 ## GitHub continuation · 2026-11-14
 
 [Research](research/daily/2026-11-14-github-continuation.md) records pinned GUT and abagames readings and discarded absolute claims. Original paraphrase only; no upstream code, fixture or asset copied. Both inspected licenses are MIT; that does not relicense unrelated dependencies or content.
+
+
+## Build delivery · 2026-11-14
+
+Original synthesis from GameCI unity-builder and Godot contributor documentation. [Fixed versions, read scope and licenses](../skills/game-build-delivery/references/build-checks.md). No upstream code or assets included; source review is not build/runtime validation.

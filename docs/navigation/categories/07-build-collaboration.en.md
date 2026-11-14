@@ -18,9 +18,9 @@ Builds are unreproducible, handoffs are unclear, or release/rollback preparation
 
 ## Available entry
 
-[Project contract](../../examples/project-contract.md). Read the actual entry and only its needed local references.
+[game-build-delivery](../../../skills/game-build-delivery/SKILL.md) provides the build/export and local handoff workflow; [project contract](../../examples/project-contract.md). Read the actual entry and only its needed local references.
 
-This is a navigation checklist, not an installable build Skill; publishing, deployment, signing and spending require task-specific authorization.
+This page routes to the independent build Skill; publishing, deployment, signing and spending require task-specific authorization.
 
 ## Smallest check
 

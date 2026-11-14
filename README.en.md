@@ -19,6 +19,7 @@ This is not a Unity/Unreal runtime plugin, game engine or guaranteed whole-game 
 
 | Skill | Scope | Not its job |
 | --- | --- | --- |
+| [game-build-delivery](skills/game-build-delivery/SKILL.md) | Build/export diagnosis and traceable local delivery | No automatic signing, release or deployment; builds are not playtests |
 | [game-resource-selection](skills/game-resource-selection/SKILL.md) | Contextual engine/tool/resource selection with current cost, platform and license checks | Automatic installs/purchases or treating free as redistribution permission |
 | [game-prototype-planning](skills/game-prototype-planning/SKILL.md) | Ideas, rules and minimal prototype plans with observable signals and counterevidence | Whole-game generation or substituting plans for playtests |
 | [game-visual-iteration](skills/game-visual-iteration/SKILL.md) | Reference analysis, lighting/material diagnosis, asset integration and controlled visual iteration | Replacing art direction or the toolchain |
@@ -26,7 +27,7 @@ This is not a Unity/Unreal runtime plugin, game engine or guaranteed whole-game 
 
 The planning, visual and playloop Skills support an existing game or an explicitly authorized new prototype. For a new project, define a minimal task and reversible assumptions instead of requiring a nonexistent legacy codebase.
 
-**All eight bilingual category guides are complete, but this does not mean eight implemented Skills.** The four above are currently installable. Additional focused Skills, a full tools/free-resources directory, a game showcase and fully bilingual references remain future work. The [navigation](docs/navigation/README.en.md) labels availability. No game made with this bundle has yet been uploaded or verified here.
+**All eight bilingual category guides are complete, but this does not mean eight implemented Skills.** The five above are currently installable. Additional focused Skills, a full tools/free-resources directory, a game showcase and fully bilingual references remain future work. The [navigation](docs/navigation/README.en.md) labels availability. No game made with this bundle has yet been uploaded or verified here.
 
 ## Minimal use
 

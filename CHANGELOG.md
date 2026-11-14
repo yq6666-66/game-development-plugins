@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased · build delivery
+
+- Add independent engine-neutral `game-build-delivery` with paired workflow, artifact evidence and pinned GitHub provenance.
+- Route build navigation to the portable Skill; distinguish cache/build/package/launch/release evidence.
+- No upstream tools, engine tests, signing, release or deployment performed.
+
 ## Unreleased · eight-category navigation
 
 - Complete eight paired Chinese/English category guides with task triggers, inputs/outputs, new/existing-project routes, available entries, minimum checks and explicit gaps.
