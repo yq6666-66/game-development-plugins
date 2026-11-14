@@ -46,3 +46,7 @@ Methods were independently summarized, not copied as an upstream execution frame
 The portable skills contain no required project coordinates, material-slot counts, target frame rate or fixed retry count. Project-specific historical notes are excluded from this candidate. Preserve the current project's own contract.
 
 No merge, release, personal-skill update or game modification is performed merely by reading this package. The MIT License applies to this package; linked upstream content retains its own terms.
+
+## Research candidate · 2026-11-14
+
+New [daily research](docs/research/daily/2026-11-14.md) adds bilingual on-demand checks for recovery relationships and essential audio information to the existing playloop skill. [Validation scope](docs/validation/market-2026-11-14.md) separates package checks from game execution. This daily branch does not merge the pending bilingual-navigation or fourth-distillation branches.

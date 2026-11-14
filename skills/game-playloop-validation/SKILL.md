@@ -34,6 +34,7 @@ UI 可拥有焦点等局部呈现状态，不得复制一份游戏规则。状�
 
 - 重开、重复结算、对象池、异步、AI/碰撞、存档或可疑绿灯：读 [状态与测试门槛](references/state-and-test-gates.md)。
 - Unity 或网页的具体故障路径：只读 [平台检查](references/platform-checks.md) 中相关一节；其他引擎应映射到其实际生命周期与官方 API，而不是套用这些检查的 API 名称。
+- 存档字段正确但恢复后的世界不一致，或字幕存在却仍漏掉重要信息：读 [恢复关系与声音信息检查](references/recovery-and-audio-information.md)（[English](references/recovery-and-audio-information.en.md)）。只检查当前任务涉及的系统。
 - 外部方法与过滤理由：读 [方法来源](references/sources.md)。示例代码不等于已验证实现。
 
 ## 4. 在动作正确后评价界面与手感

@@ -20,3 +20,7 @@ The supplied BRASSHEART analysis was user-provided prose, not a newly inspected 
 ## Licensing
 
 The owner approved MIT for the original package. The root LICENSE matches main commit `22d4f3734b8e5442ecce9903dcf61291071ff58a`. Linked upstream content is not relicensed. Upstream licenses do not automatically cover dependencies, model weights, generated output, trademarks or assets. Any later substantive code reuse requires a separate provenance and notice review.
+
+## Public-source research · 2026-11-14
+
+[Daily record](research/daily/2026-11-14.md): newly read Godot 4.4 persistence documentation and Microsoft XAG 104. Original synthesis and links only; no source code, screenshots, assets or long quotations copied. New bilingual references live inside the playloop skill. Upstream examples and game/runtime behavior were not executed. Previous validation dates and scopes remain unchanged.
