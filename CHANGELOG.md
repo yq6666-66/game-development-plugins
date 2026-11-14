@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased · eight-category navigation
+
+- Complete eight paired Chinese/English category guides with task triggers, inputs/outputs, new/existing-project routes, available entries, minimum checks and explicit gaps.
+- Keep four installable Skills and their stable paths; navigation pages are not claimed as new Skills or runtime implementations.
+- Add navigation-contract tests and a scoped documentation validation record; no engines, products or paid services are introduced.
+
 ## Unreleased · fourth distillation
 
 - Add bilingual scoped references for action/text/intermediate evidence, integration/data surfaces and mesh/LOD/animation checks.

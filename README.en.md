@@ -26,7 +26,7 @@ This is not a Unity/Unreal runtime plugin, game engine or guaranteed whole-game 
 
 The planning, visual and playloop Skills support an existing game or an explicitly authorized new prototype. For a new project, define a minimal task and reversible assumptions instead of requiring a nonexistent legacy codebase.
 
-**Eight categories do not mean eight implemented Skills.** The four above are currently installable. Additional focused Skills, a full tools/free-resources directory, a game showcase and fully bilingual references remain future work. The [navigation](docs/navigation/README.en.md) labels availability. No game made with this bundle has yet been uploaded or verified here.
+**All eight bilingual category guides are complete, but this does not mean eight implemented Skills.** The four above are currently installable. Additional focused Skills, a full tools/free-resources directory, a game showcase and fully bilingual references remain future work. The [navigation](docs/navigation/README.en.md) labels availability. No game made with this bundle has yet been uploaded or verified here.
 
 ## Minimal use
 
