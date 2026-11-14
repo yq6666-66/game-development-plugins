@@ -26,7 +26,13 @@ def markdown_targets(content: str) -> tuple[list[str], list[str]]:
             fence = match[1]
             continue
         lines.append(line)
-    text = re.sub(r'(`+)(.*?)\1', '', '\n'.join(lines))
+    # Mask escaped syntax with parity preserved: two backslashes leave a real
+    # opening bracket; one or three escape it. Do not unescape destinations.
+    text = re.sub(r'\\([\\\[\]`])', lambda m: ' ' * len(m[0]), '\n'.join(lines))
+    # Equal-length backtick runs delimit code spans, including across lines.
+    # A longer run is not a closing delimiter for a shorter opener.
+    text = re.sub(r'(?<!`)(`+)(?!`)(.*?)(?<!`)\1(?!`)' ,
+                  lambda m: '\n' * m[0].count('\n'), text, flags=re.S)
     normalize = lambda label: ' '.join(label.split()).casefold()
     definitions, errors = {}, []
     for match in DEFINITION.finditer(text):

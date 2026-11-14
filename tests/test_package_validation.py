@@ -56,6 +56,18 @@ class PackagingTests(unittest.TestCase):
         self.assertEqual(targets, ['#section'])
         self.assertEqual(errors, [])
 
+    def test_multiline_code_spans_and_exact_delimiters(self):
+        for example in ('`example\n[Detail](missing.md)\nend`',
+                        '``example ` inner\n[Detail][missing]\nend``'):
+            self.assertEqual((['real.md'], []), validator.markdown_targets(example + '\n[Real](real.md)'))
+        self.assertEqual((['real.md'], []), validator.markdown_targets('`unclosed [Real](real.md)'))
+
+    def test_escaped_opening_brackets_and_backslash_parity(self):
+        for example in (r'\[not-a-link][missing]', r'\[Detail](missing.md)',
+                        r'\\\[not-a-link][missing]'):
+            self.assertEqual(([], []), validator.markdown_targets(example))
+        self.assertEqual((['real.md'], []), validator.markdown_targets(r'\\[Real](real.md)'))
+
     def test_defined_shortcut_and_ordinary_brackets(self):
         targets, errors = validator.markdown_targets('[Guide] [ordinary text]\n[guide]: references/missing.md')
         self.assertEqual(targets, ['references/missing.md'])
