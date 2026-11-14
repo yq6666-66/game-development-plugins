@@ -17,3 +17,9 @@ Core skill instructions do not depend on an upstream CLI, MCP server or API key.
 ## Scoped host evidence · 2026-11-14
 
 Codex CLI `0.167.0-alpha.4` app-server discovered `game-resource-selection` from an isolated project `.agents/skills` folder and parsed its metadata without errors. [Evidence and reproduction](validation/codex-discovery-2026-11-14.md). Authenticated model-turn loading remains blocked/unverified; this does not establish other hosts or versions. Earlier validation records retain their original scope.
+
+## Local Markdown checks
+
+The package validator checks file targets for inline links and same-document reference links (`[text][id]`, `[id][]`, and `[id]` when a definition exists). It supports single-line `[id]: path` or `[id]: <path>` definitions without titles, with case-insensitive, whitespace-normalized labels. Duplicate definitions are rejected by this package convention; explicit/collapsed undefined labels are errors. Fenced and inline code examples are excluded.
+
+This is a bounded packaging check, not a CommonMark parser: multiline destinations, optional titles, escaped/nested brackets, embedded HTML, percent-encoded paths and fragment/heading validity are not fully validated. External URL accessibility is not tested. Prefer the supported plain syntax for required portable references, and manually review other forms. A parser PASS does not establish host loading or gameplay.

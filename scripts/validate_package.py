@@ -6,6 +6,51 @@ import sys
 
 NAME = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
 LINK = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
+REFERENCE = re.compile(r"\[([^\]\n]+)\]\[([^\]\n]*)\]")
+DEFINITION = re.compile(r'^ {0,3}\[([^\]\n]+)\]:[ \t]*(?:<([^>\n]+)>|(\S+))[ \t]*$', re.M)
+
+def markdown_targets(content: str) -> tuple[list[str], list[str]]:
+    """Supported subset: inline, explicit/collapsed and defined shortcut references.
+
+    Ignore fenced and inline code examples. This is not a CommonMark parser;
+    titles, multiline destinations and fragment validity are outside this check.
+    """
+    lines, fence = [], None
+    for line in content.splitlines():
+        match = re.match(r'^ {0,3}(`{3,}|~{3,})(.*)$', line)
+        if fence:
+            if match and match[1][0] == fence[0] and len(match[1]) >= len(fence) and not match[2].strip():
+                fence = None
+            continue
+        if match:
+            fence = match[1]
+            continue
+        lines.append(line)
+    text = re.sub(r'(`+)(.*?)\1', '', '\n'.join(lines))
+    normalize = lambda label: ' '.join(label.split()).casefold()
+    definitions, errors = {}, []
+    for match in DEFINITION.finditer(text):
+        key = normalize(match[1])
+        if key in definitions:
+            errors.append(f'duplicate reference definition: {match[1]}')
+        else:
+            definitions[key] = match[2] or match[3]
+    text = DEFINITION.sub('', text)
+    targets = LINK.findall(text)
+    for match in REFERENCE.finditer(text):
+        label = match[2] or match[1]
+        key = normalize(label)
+        if key not in definitions:
+            errors.append(f'undefined reference label: {label}')
+        else:
+            targets.append(definitions[key])
+    # A bare [label] is a link only when this document defines that label.
+    remaining = REFERENCE.sub('', LINK.sub('', text))
+    for label in re.findall(r'\[([^\]\n]+)\]', remaining):
+        key = normalize(label)
+        if key in definitions:
+            targets.append(definitions[key])
+    return targets, errors
 
 def validate(root: Path) -> list[str]:
     errors = []
@@ -33,7 +78,9 @@ def validate(root: Path) -> list[str]:
             content = file.read_text(encoding='utf-8')
             if re.search(r'\[TODO:|\[Insert |\[Replace ', content):
                 errors.append(f'{file.relative_to(root)}: unfinished scaffold')
-            for link in LINK.findall(content):
+            targets, reference_errors = markdown_targets(content)
+            errors.extend(f'{file.relative_to(root)}: {error}' for error in reference_errors)
+            for link in targets:
                 target = link.split('#', 1)[0]
                 if not target or re.match(r'[a-zA-Z][a-zA-Z0-9+.-]*:', target):
                     continue

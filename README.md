@@ -61,7 +61,7 @@ python3 scripts/validate_package.py
 python3 -m unittest discover -s tests -v
 ```
 
-这些检查只覆盖包结构与校验行为，不证明宿主加载、引擎运行、真机控制或画面表现。查看[历史验证](docs/VALIDATION.md)、[导航文档检查](docs/validation/navigation-foundation-2026-11-14.md)、[原型规划检查](docs/validation/prototype-planning-2026-11-14.md)及[资源选择检查](docs/validation/resource-selection-2026-11-14.md)。中文与英文首页、导航和蒸馏入门已配套；新原型规划及资源选择 Skill 提供目录内完整英文流程；既有两项 Skill 正文以中文为主，部分技术与历史文档为英文，尚非完整逐文件双语。
+这些检查只覆盖包结构与校验行为，不证明宿主加载、引擎运行、真机控制或画面表现。查看[历史验证](docs/VALIDATION.md)、[导航文档检查](docs/validation/navigation-foundation-2026-11-14.md)、[原型规划检查](docs/validation/prototype-planning-2026-11-14.md)及[资源选择检查](docs/validation/resource-selection-2026-11-14.md)。中文与英文首页、导航和蒸馏入门已配套；新原型规划及资源选择 Skill 提供目录内完整英文流程；视觉和玩法两项也已补齐目录内完整英文主流程；部分专项和历史参考仍仅保留原语言，尚非完整逐文件双语。
 
 ## 文档与许可
 

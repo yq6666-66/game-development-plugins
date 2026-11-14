@@ -5,6 +5,8 @@ description: Diagnose and improve visual readability in an existing game or an a
 
 # 游戏画面小步迭代
 
+[English workflow](references/workflow.en.md)：目录内完整英文主流程；历史专项参考仍保留各自语言与证据范围。
+
 将参考转成玩家可观察的改进目标，而不是复制美术或默认追加特效。适用于既有 2D/3D 项目，也可为用户明确授权的新原型建立小型视觉样板；不是整款游戏生成器。只读取本任务需要的参考。
 
 ## 1. 确定这次要证明什么

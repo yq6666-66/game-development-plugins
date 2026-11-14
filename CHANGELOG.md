@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased · workflow parity and portable references
+
+- Add complete English core workflows for visual iteration and playloop validation, preserving conditional reference loading and evidence boundaries.
+- Align the engineering dependency wording: reuse existing dependencies, handle necessary missing ones only under task/host authorization.
+- Validate explicit, collapsed and defined shortcut Markdown references within a documented single-line subset, with negative fixtures; ignore code examples.
+- No new Skill or upstream runtime dependency; seven Skills remain.
+
 ## Unreleased · three-skill integration
 
 - Merge engineering, UI design and build delivery; unify bilingual navigation and compatibility counts to seven independently copyable Skills.

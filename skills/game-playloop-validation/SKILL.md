@@ -5,6 +5,8 @@ description: Diagnose and validate a scoped input-to-state-to-feedback loop in a
 
 # 游戏玩法与界面验证
 
+[English workflow](references/workflow.en.md)：目录内完整英文主流程；历史专项参考仍保留各自语言与证据范围。
+
 先确认规则与状态正确，再改善反馈。继承实际工程与控制方式；不因类型示例引入射击、多人或另一套框架。
 
 ## 1. 分清问题与证据
