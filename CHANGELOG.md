@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased · isolated host discovery
+
+- Record actual Codex CLI 0.167.0-alpha.4 project-skill discovery and metadata parsing in isolated homes.
+- Keep authenticated model-turn loading explicitly blocked/unverified; no personal configuration or installed Skills changed.
+
 ## Unreleased · resource selection
 
 - Add bilingual self-contained `game-resource-selection` for contextual engine, framework, tool and asset research.
