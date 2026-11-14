@@ -36,3 +36,7 @@ The independent bilingual selection workflow synthesizes this repository's pinne
 ## Public-source research · 2026-11-14
 
 [Daily record](research/daily/2026-11-14.md): newly read Godot 4.4 persistence documentation and Microsoft XAG 104. Original synthesis and links only; no source code, screenshots, assets or long quotations copied. New bilingual references live inside the playloop skill. Upstream examples and game/runtime behavior were not executed. Previous validation dates and scopes remain unchanged.
+
+## GitHub continuation · 2026-11-14
+
+[Research](research/daily/2026-11-14-github-continuation.md) records pinned GUT and abagames readings and discarded absolute claims. Original paraphrase only; no upstream code, fixture or asset copied. Both inspected licenses are MIT; that does not relicense unrelated dependencies or content.

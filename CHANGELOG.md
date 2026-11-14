@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased · eight-category navigation
+
+- Complete eight paired Chinese/English category guides with task triggers, inputs/outputs, new/existing-project routes, available entries, minimum checks and explicit gaps.
+- Keep four installable Skills and their stable paths; navigation pages are not claimed as new Skills or runtime implementations.
+- Add navigation-contract tests and a scoped documentation validation record; no engines, products or paid services are introduced.
+
 ## Unreleased · fourth distillation
 
 - Add bilingual scoped references for action/text/intermediate evidence, integration/data surfaces and mesh/LOD/animation checks.
@@ -45,3 +51,8 @@
 - Add bilingual, on-demand playloop checks for persistence identity/relationships and essential audio information.
 - Record primary-source reading and negative scenarios separately from game execution.
 - Keep the daily branch on current main; do not import or merge the pending navigation/fourth-pass branches.
+
+## Unreleased · GitHub continuation 2026-11-14
+
+- Add bilingual async-result, fixture-cleanup, divergence-localization and known-bad-control guidance from pinned GUT and abagames readings.
+- Distinguish finite evidence from equivalence or causal proof; no upstream runtime or fixture execution claimed.

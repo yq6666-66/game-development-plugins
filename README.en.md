@@ -26,7 +26,7 @@ This is not a Unity/Unreal runtime plugin, game engine or guaranteed whole-game 
 
 The planning, visual and playloop Skills support an existing game or an explicitly authorized new prototype. For a new project, define a minimal task and reversible assumptions instead of requiring a nonexistent legacy codebase.
 
-**Eight categories do not mean eight implemented Skills.** The four above are currently installable. Additional focused Skills, a full tools/free-resources directory, a game showcase and fully bilingual references remain future work. The [navigation](docs/navigation/README.en.md) labels availability. No game made with this bundle has yet been uploaded or verified here.
+**All eight bilingual category guides are complete, but this does not mean eight implemented Skills.** The four above are currently installable. Additional focused Skills, a full tools/free-resources directory, a game showcase and fully bilingual references remain future work. The [navigation](docs/navigation/README.en.md) labels availability. No game made with this bundle has yet been uploaded or verified here.
 
 ## Minimal use
 
@@ -69,3 +69,5 @@ Reading this bundle does not authorize spending, uploads, game modifications, me
 ## Public-source distillation · 2026-11-14
 
 The [daily research](docs/research/daily/2026-11-14.md) adds bilingual references for recovery relationships and essential audio information to the playloop Skill. [Validation scope](docs/validation/market-2026-11-14.md) distinguishes package checks from game execution. This integration preserves the independent daily branch's sources and historical evidence limits.
+
+[Additional GitHub research](docs/research/daily/2026-11-14-github-continuation.md) adds scoped async-result, fixture-cleanup, state-divergence and detection-power checks without adding another Skill.
