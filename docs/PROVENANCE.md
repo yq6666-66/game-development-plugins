@@ -1,0 +1,22 @@
+# Provenance and third-distillation decisions
+
+This candidate reorganizes the existing two skills, preserving source links and the earlier version-pinned reading record. It adds no upstream code, models, textures, audio, executable automation or scraped article copies.
+
+## What changed
+
+- Removed the named private-project contract from active skill routing; preserved it separately, outside this generic package.
+- Replaced fixed sample/retry/project assumptions with a current-project contract and risk-scaled scope.
+- Clarified engine-neutral intent versus Unity/browser examples; no cross-engine runtime guarantees.
+- Removed inherited UI icons whose redistribution provenance was not established.
+- Added a local validator and negative tests, installation boundaries and compatibility documentation.
+- Kept methodology references separate from instructions. Upstream instructions never grant authority to spend, upload, install, delete, deploy or override the project.
+
+## Evidence limits
+
+The earlier audit covers source reading at different depths, not full execution or security certification. Read its per-file levels rather than treating its path count as an audited-code count. This round adapts those findings and the current skill text; it does not pretend to rerun hundreds of upstream workflows.
+
+The supplied BRASSHEART analysis was user-provided prose, not a newly inspected or licensed HTML artifact. Saltline's original artifact was not available for code review. Neither artifact is distributed here. Generic visual principles are not claims of tested rendering behavior.
+
+## Licensing
+
+The owner approved MIT for the original package. The root LICENSE matches main commit `22d4f3734b8e5442ecce9903dcf61291071ff58a`. Linked upstream content is not relicensed. Upstream licenses do not automatically cover dependencies, model weights, generated output, trademarks or assets. Any later substantive code reuse requires a separate provenance and notice review.
