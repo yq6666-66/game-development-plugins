@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased · prototype planning
+
+- Add independent `game-prototype-planning` with Chinese entry, complete English workflow and bilingual local planning/source references.
+- Cover new ideas and existing-project experiments without fixed engines, win conditions, sample sizes or automatic implementation.
+- Update current navigation and compatibility counts; preserve historical evidence and existing Skill content.
+
 ## Unreleased · bilingual navigation foundation
 
 - Add Chinese-first and English homepages for both new projects and existing-project takeovers.

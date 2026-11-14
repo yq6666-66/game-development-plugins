@@ -19,12 +19,13 @@
 
 | Skill | 适用任务 | 边界 |
 | --- | --- | --- |
+| [game-prototype-planning](skills/game-prototype-planning/SKILL.md) | 创意、规则与最小原型计划，定义观察信号和反证 | 不生成完整游戏，不以方案代替试玩 |
 | [game-visual-iteration](skills/game-visual-iteration/SKILL.md) | 视觉参考拆解、材质与光照排错、资产接入、画面小步对比 | 不替代美术方向，不默认更换工具链 |
 | [game-playloop-validation](skills/game-playloop-validation/SKILL.md) | 输入、规则、状态、生命周期、重开、存档、HUD 与反馈验证 | 不发明既有玩法，不代替发布授权 |
 
-两项 Skill 均支持已有工程或明确授权的新原型；尚未建立工程时，先写最小任务与可撤销假设，不把“缺少旧工程”当作拒绝从零开发的理由。
+三项 Skill 均支持已有工程或明确授权的新原型；尚未建立工程时，先写最小任务与可撤销假设，不把“缺少旧工程”当作拒绝从零开发的理由。
 
-**八类导航不等于八项已实现技能。** 目前只有上述两项可复制使用。更多独立 Skills、完整工具与免费资源目录、作品展示及完整双语参考库属于后续工作；[导航页](docs/navigation/README.md)逐项标明状态。尚未上传或验证使用本插件完成的游戏。
+**八类导航不等于八项已实现技能。** 目前有上述三项可复制使用。更多独立 Skills、完整工具与免费资源目录、作品展示及完整双语参考库属于后续工作；[导航页](docs/navigation/README.md)逐项标明状态。尚未上传或验证使用本插件完成的游戏。
 
 ## 最小使用流程
 
@@ -56,7 +57,7 @@ python3 scripts/validate_package.py
 python3 -m unittest discover -s tests -v
 ```
 
-这些检查只覆盖包结构与校验行为，不证明宿主加载、引擎运行、真机控制或画面表现。查看[历史验证](docs/VALIDATION.md)及[本次文档检查](docs/validation/navigation-foundation-2026-11-14.md)。中文与英文首页、导航和蒸馏入门已配套；既有 Skill 正文以中文为主，部分技术与历史文档为英文，尚非完整逐文件双语。
+这些检查只覆盖包结构与校验行为，不证明宿主加载、引擎运行、真机控制或画面表现。查看[历史验证](docs/VALIDATION.md)、[导航文档检查](docs/validation/navigation-foundation-2026-11-14.md)及[原型规划检查](docs/validation/prototype-planning-2026-11-14.md)。中文与英文首页、导航和蒸馏入门已配套；新原型规划 Skill 提供目录内完整英文流程；既有两项 Skill 正文以中文为主，部分技术与历史文档为英文，尚非完整逐文件双语。
 
 ## 文档与许可
 

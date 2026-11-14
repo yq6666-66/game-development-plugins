@@ -20,3 +20,7 @@ The supplied BRASSHEART analysis was user-provided prose, not a newly inspected 
 ## Licensing
 
 The owner approved MIT for the original package. The root LICENSE matches main commit `22d4f3734b8e5442ecce9903dcf61291071ff58a`. Linked upstream content is not relicensed. Upstream licenses do not automatically cover dependencies, model weights, generated output, trademarks or assets. Any later substantive code reuse requires a separate provenance and notice review.
+
+## Prototype-planning addition · 2026-11-14
+
+`game-prototype-planning` independently adapts question framing, counterevidence and small experiments from the previously pinned research. Its self-contained sources document states rereading scope and rejected defaults. No upstream code or assets are included; source reading and scenario evaluation are not player or engine validation.

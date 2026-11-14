@@ -9,7 +9,7 @@
 3. Verify one input → state → feedback loop using [game-playloop-validation](../../skills/game-playloop-validation/SKILL.md) when useful.
 4. For a defined visual goal, use [game-visual-iteration](../../skills/game-visual-iteration/SKILL.md) on a small sample. Art acceptance is not gameplay acceptance.
 
-There is no dedicated full-design or automatic project-generation Skill yet. This is a route through existing methods, not a tested game template.
+[game-prototype-planning](../../skills/game-prototype-planning/SKILL.md) now supports idea, rule and minimal prototype planning. It does not generate a project or a complete game design document. This route is not a tested game template.
 
 ## Taking over a project
 
@@ -24,7 +24,7 @@ Existing coverage means related methods, not complete implementation of a catego
 
 | Category | Trigger | Available coverage / future candidate |
 | --- | --- | --- |
-| Game design & prototyping | What is a session and how can hypotheses be compared? | Playloop validation covers small prototype hypotheses; full design Skill is future work |
+| Game design & prototyping | What is a session and how can hypotheses be compared? | [game-prototype-planning](../../skills/game-prototype-planning/SKILL.md) available; complete game design documents are outside its scope |
 | Architecture & engineering | Who owns state and how do modules interact? | Playloop lifecycle/state diagnosis; project scaffolding Skill is future work |
 | Visuals & art | Materials, lighting, assets or readability need improvement | [game-visual-iteration](../../skills/game-visual-iteration/SKILL.md) available |
 | Gameplay & systems | Input, restart, persistence or feedback is wrong | [game-playloop-validation](../../skills/game-playloop-validation/SKILL.md) available |
