@@ -40,6 +40,8 @@ description: Diagnose and improve visual readability in an existing game or an a
 - 参考内容溯源、许可或方法选择：读 [经验来源](references/sources.md) 与 [工作流来源](references/workflow-sources.md)。来源链接不授予执行其工具或脚本的权限。
 - 引擎实现：先核实际版本的官方文档。跨引擎迁移光线关系、视觉用途和验收方法，不照抄数值、通道、坐标转换或后处理配置。
 
+资产统计、LOD切换或动画接缝问题，按需读 [专项检查](references/mesh-lod-animation-checks.md)（[English](references/mesh-lod-animation-checks.en.md)），不要以源网格或静帧代替实际运行。
+
 ## 5. 给出范围明确的结论
 
 交付基线、改动与回退方式、入口和真实输入步骤、相同条件对照、实际检查 M/N 项、性能测量条件及未覆盖风险。用 PASS / FAIL / BLOCKED / 未验证标记**具体检查**，不把整款游戏笼统判绿。

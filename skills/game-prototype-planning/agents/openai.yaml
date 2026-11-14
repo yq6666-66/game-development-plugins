@@ -1,0 +1,6 @@
+interface:
+  display_name: "游戏创意与原型规划"
+  short_description: "将新游戏创意或既有机制疑问转成有明确规则、反证和决策门的最小原型计划"
+  default_prompt: "使用 $game-prototype-planning，把我的游戏想法整理成一个可检验的最小原型计划，区分事实、假设与待决定项。"
+policy:
+  allow_implicit_invocation: true

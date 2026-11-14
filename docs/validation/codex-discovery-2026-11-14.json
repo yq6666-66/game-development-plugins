@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-14",
+  "host": "codex-cli 0.167.0-alpha.4",
+  "result_excerpt": {
+    "skill": {
+      "name": "game-resource-selection",
+      "description": "Research and compare game engines, frameworks, development tools and asset resources against project constraints, current official evidence, costs and licensing. Use for a shortlist or an adoption decision, not automatic installation, purchases, asset redistribution or engine migration.",
+      "interface": {
+        "displayName": "游戏工具与资源选择",
+        "shortDescription": "按项目约束核查工具与素材的当前官方证据、费用和许可，形成可审阅建议",
+        "iconSmall": null,
+        "iconLarge": null,
+        "iconSmallUrl": null,
+        "iconLargeUrl": null,
+        "brandColor": null,
+        "defaultPrompt": "使用 $game-resource-selection，按我的项目约束比较合适的工具或资源，核查费用、许可与平台限制，先研究不安装。"
+      },
+      "path": "PROJECT/.agents/skills/game-resource-selection/SKILL.md",
+      "scope": "repo",
+      "enabled": true,
+      "pluginId": null
+    },
+    "errors": []
+  },
+  "redaction": "Temporary project path replaced with PROJECT; unrelated built-in skills omitted.",
+  "model_turn": "BLOCKED / NOT RUN: no model authentication provisioned in isolated test environment"
+}

@@ -2,7 +2,7 @@
 
 | Layer | What is provided | What has not been established |
 | --- | --- | --- |
-| Skill format | Two `SKILL.md` entries, relative references, optional Codex UI metadata | Automatic discovery in every host |
+| Skill format | Four `SKILL.md` entries, relative references, optional Codex UI metadata | Automatic discovery in every host |
 | Game reasoning | Scoped hypotheses, state ownership, lifecycle, evidence and asset contracts | A tested runtime implementation |
 | Unity | Version-aware diagnostic checklist | Compilation, Editor/Player execution or hardware performance of a target project |
 | Browser | Input cancellation, rendering lifecycle and device evidence checklist | Browser matrix, touch-device or WebGL conformance |
@@ -13,3 +13,7 @@ Use the actual locked project version. Do not upgrade an engine, switch renderer
 Some checklist items apply only to 3D, animation, networking, save data or paid generation. Mark unrelated items out of scope instead of adding those systems. Missing target-device evidence is unverified, not proof of failure or success.
 
 Core skill instructions do not depend on an upstream CLI, MCP server or API key. References are provenance, not a command to execute source scripts. New dependencies and external actions require task-specific authorization under the host's policies.
+
+## Scoped host evidence · 2026-11-14
+
+Codex CLI `0.167.0-alpha.4` app-server discovered `game-resource-selection` from an isolated project `.agents/skills` folder and parsed its metadata without errors. [Evidence and reproduction](validation/codex-discovery-2026-11-14.md). Authenticated model-turn loading remains blocked/unverified; this does not establish other hosts or versions. Earlier validation records retain their original scope.
