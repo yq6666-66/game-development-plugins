@@ -26,3 +26,9 @@ Maintenance schedule: 09:00 daily research and 10:00 Monday integration, Asia/Sh
 ## Reuse and contribution
 
 Original templates use [MIT](../../LICENSE). Preserve third-party author/version links and check code, asset and model licenses separately. Submit the problem, rationale, sources, validation and remaining risks. Chinese is primary; update paired English documents or mark synchronization gaps explicitly.
+
+## Compare distillation quality
+
+Report structure, scenario behavior, host loading and target runtime separately instead of collapsing them into one score. Fewer warnings cannot cancel a new critical failure: 0 FAIL / 3 WARN becoming 1 FAIL / 0 WARN is not automatically an improvement. Unevaluated is not zero errors. Preserve the same tasks and constraints and, when useful, a no-skill baseline, targeted counterexamples and pre-edit text. Do not discard behavioral evidence merely to shorten a summary. This is a maintenance inference, not a completed host A/B test.
+
+Source: [Studio skill-improve](https://github.com/Donchitos/Claude-Code-Game-Studios/blob/abc0de79d6ceb0b5d7aa693945849b3937afbe6a/.claude/skills/skill-improve/SKILL.md), its static/behavior distinction and FAIL+WARN aggregation counterexample. Fully read statically this round, not executed.

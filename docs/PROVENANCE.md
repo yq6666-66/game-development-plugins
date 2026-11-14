@@ -28,3 +28,7 @@ The owner approved MIT for the original package. The root LICENSE matches main c
 ## Resource-selection addition · 2026-11-14
 
 The independent bilingual selection workflow synthesizes this repository's pinned recommendation template, asset/license gates and evidence levels. Its local sources file records the derivation. No new product-price or external-tool verification is claimed; actual use must recheck current official sources.
+
+## Fourth pass · 2026-11-14
+
+[Reading scope and decisions](audits/2026-11-14-fourth/README.md) distinguish targeted historical rereads, new deep references and sources not re-audited. New material is original paraphrase and bilingual workflow detail, not copied upstream code. No upstream tools or target games were executed.

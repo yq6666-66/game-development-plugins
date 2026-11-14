@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased · fourth distillation
+
+- Add bilingual scoped references for action/text/intermediate evidence, integration/data surfaces and mesh/LOD/animation checks.
+- Refine prototype observation and distillation quality without adding duplicate Skills or fixed engine/tool requirements.
+- Preserve fixed-source reading scope, rejected defaults and unverified runtime boundaries in the fourth-pass audit.
+
+
 ## Unreleased · isolated host discovery
 
 - Record actual Codex CLI 0.167.0-alpha.4 project-skill discovery and metadata parsing in isolated homes.

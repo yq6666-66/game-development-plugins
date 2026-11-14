@@ -19,3 +19,5 @@
 开放式音乐玩具：问题是“玩家能否听出两种组合方式的区别”。试验可保持音色与输入不变，仅改变组合规则。必须保留足够音频保真度，不能用纯纸面比较证明听觉辨识。观察玩家能否描述差异，以及是否只是音量不同造成判断。无需添加敌人、分数或胜负。本例未实际运行，没有通过结论。
 
 Open-ended music toy: ask whether players can distinguish two combination rules. Hold timbre and inputs fixed while changing the rule. Preserve enough audio fidelity; paper alone cannot establish auditory discrimination. Observe descriptions of the difference and whether loudness is the competing cause. Enemies, scores and winning are unnecessary. This example has not been executed and has no pass verdict.
+
+可选观察 / Optional observation: 汇总是否掩盖某个受支持输入、语言或可访问性条件下的阻塞？保留相反回应，不据小样本给玩家永久分类。 / Does aggregation hide a blocker for a supported input, language or accessibility condition? Preserve contrary responses without assigning permanent player categories from small samples.

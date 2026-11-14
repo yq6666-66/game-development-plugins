@@ -33,3 +33,5 @@ Specify minimal verification inputs, environment, actions, observable result, fa
 Read public materials under current research authorization without repeatedly asking permission for every document. Installation, accounts, uploads of project/personal data, generation services, payment, agreement acceptance, publishing and migration are separate actions governed by user instructions and host permissions. Recommendations and license text do not themselves authorize execution.
 
 Deliver constraints, evidence cards, recommended/conditional/unverified decisions, minimal checks and unresolved matters. Do not add a static ranking or executable installer. See [sources](sources.md) for provenance and evidence limits.
+
+For host configuration, automation, local services or generation pipelines, read [integration surfaces and decision lifetime](integration-surface.en.md).

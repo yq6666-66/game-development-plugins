@@ -65,3 +65,5 @@ python3 -m unittest discover -s tests -v
 [八类导航](docs/navigation/README.md) · [蒸馏教程](docs/distillation/README.md) · [兼容性](docs/COMPATIBILITY.md) · [来源](docs/PROVENANCE.md) · [历史审阅](docs/audits/2026-11-13/README.md) · [变更记录](CHANGELOG.md) · [MIT](LICENSE)
 
 读取或安装本包不授予付费、上传、修改游戏、合并或部署权限。来源记录中的路径数量不是运行通过的技能数量。
+
+[第四轮来源与增量](docs/audits/2026-11-14-fourth/README.md) · [Validation](docs/validation/fourth-pass-2026-11-14.md)

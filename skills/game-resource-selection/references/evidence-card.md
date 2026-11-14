@@ -20,3 +20,5 @@
 素材页面写“free”，但未说明原文件再分发。不能因此把素材提交到公开模板仓库，也不能把整页缺失当作已检查许可。可记录链接，并将公开打包列为待权利确认。此示例不对应任何真实产品或已运行测试。
 
 An asset page says “free” without raw-redistribution terms. Do not put it in a public template repository or call missing terms verified. Record the link and block packaging pending rights confirmation. This is illustrative, not a claim about a real product or executed test.
+
+- 可选 / Optional: 执行触发与数据路径 / execution triggers and data flow; 采纳状态、复查触发与受影响产物 / adoption status, review triggers and affected outputs.

@@ -33,6 +33,8 @@ description: Research and compare game engines, frameworks, development tools an
 
 给出最小验证计划：需要的输入、目标环境、操作与可观察结果、失败信号和停止条件。没有运行只写计划。性能要说明测量条件；下载成功、示例运行、作者视频与本项目验证不是一回事。
 
+候选涉及宿主配置、自动化、本地服务或生成管线时，读 [接入面与决策寿命](references/integration-surface.md)（[English](references/integration-surface.en.md)），检查执行触发、数据路径与伴随产物。
+
 ## 5. 推荐与执行分开
 
 公开资料的只读研究按当前授权进行，不为每个公开文档重复索要批准。安装、账号注册、上传项目或个人数据、调用生成服务、付费、许可接受、发布或技术迁移是不同动作，按用户指令和宿主权限规则执行；建议不自带授权，许可文本也不能授权执行。

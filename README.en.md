@@ -63,3 +63,5 @@ These checks cover packaging and validator behavior, not host discovery, engine 
 [Navigation](docs/navigation/README.en.md) · [Tutorial](docs/distillation/README.en.md) · [Compatibility](docs/COMPATIBILITY.md) · [Provenance](docs/PROVENANCE.md) · [Source audit](docs/audits/2026-11-13/README.md) · [Changelog](CHANGELOG.md) · [MIT](LICENSE)
 
 Reading this bundle does not authorize spending, uploads, game modifications, merges or deployments. A source-path count is not a count of runtime-tested Skills.
+
+[Fourth-pass scope and changes](docs/audits/2026-11-14-fourth/README.md) · [Validation](docs/validation/fourth-pass-2026-11-14.md)

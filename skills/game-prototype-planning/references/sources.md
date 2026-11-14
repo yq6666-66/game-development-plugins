@@ -13,3 +13,5 @@ On 2026-11-14, these pinned source snapshots were reread from the prior reposito
 这些是自行改写的方法总结，无第三方代码、素材或原文模板复制。原链接内容保留原许可，本包 MIT 不改变它们。本技能新增规划流程尚未获得真实玩家实验验证，包结构检查与独立情境推演只支持对应范围。
 
 These are independently written method summaries, not copied code, assets or upstream templates. Linked content retains its license; this package's MIT does not relicense it. Real-player experimental validation is not established; package checks and independent scenario walkthroughs support only their stated scope.
+
+Fourth-pass refinement: preserve contrary participant observations where aggregation hides a supported-condition blocker. Reread [design theory](https://github.com/akillness/jeo-skills/blob/f082e31bed503eed20f8c88608b0f071774e60c9/.agent-skills/game-design-theory/SKILL.md) in full; no upstream validator or player study run. / 第四轮全文复读该固定入口，未执行其验证器或玩家研究。
