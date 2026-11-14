@@ -31,7 +31,7 @@ Existing coverage means related methods, not complete implementation of a catego
 | UI & experience | HUD sync, menu focus or device input is wrong | UI checks within playloop validation; separate UI design Skill is future work |
 | Testing & performance | Is evidence sufficient and what is the runtime cost? | Both Skills include evidence/performance checks, not certification or a full test platform |
 | Build & collaboration | How should work be built, handed over or rolled back? | [Project contract](../examples/project-contract.md) and package checks; dedicated build Skill is future work |
-| Tools & resources | Which engine, app, tool or free resource fits? | [Recommendation template](../resources/README.en.md) available; concrete directory awaits verification |
+| Tools & resources | Which engine, app, tool or free resource fits? | [game-resource-selection](../../skills/game-resource-selection/SKILL.md) and [template](../resources/README.en.md) available; specific product directory awaits verification |
 
 Categories do not move folders. Existing paths remain stable and independently copyable; overlapping topics use navigation links. Add a Skill only for a distinct trigger, inputs, outputs and complete workflow, not for each source.
 

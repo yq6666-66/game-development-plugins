@@ -1,0 +1,6 @@
+interface:
+  display_name: "游戏工具与资源选择"
+  short_description: "按项目约束核查工具与素材的当前官方证据、费用和许可，形成可审阅建议"
+  default_prompt: "使用 $game-resource-selection，按我的项目约束比较合适的工具或资源，核查费用、许可与平台限制，先研究不安装。"
+policy:
+  allow_implicit_invocation: true

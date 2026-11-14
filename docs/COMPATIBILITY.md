@@ -2,7 +2,7 @@
 
 | Layer | What is provided | What has not been established |
 | --- | --- | --- |
-| Skill format | Three `SKILL.md` entries, relative references, optional Codex UI metadata | Automatic discovery in every host |
+| Skill format | Four `SKILL.md` entries, relative references, optional Codex UI metadata | Automatic discovery in every host |
 | Game reasoning | Scoped hypotheses, state ownership, lifecycle, evidence and asset contracts | A tested runtime implementation |
 | Unity | Version-aware diagnostic checklist | Compilation, Editor/Player execution or hardware performance of a target project |
 | Browser | Input cancellation, rendering lifecycle and device evidence checklist | Browser matrix, touch-device or WebGL conformance |

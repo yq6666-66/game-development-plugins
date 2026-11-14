@@ -24,3 +24,7 @@ The owner approved MIT for the original package. The root LICENSE matches main c
 ## Prototype-planning addition · 2026-11-14
 
 `game-prototype-planning` independently adapts question framing, counterevidence and small experiments from the previously pinned research. Its self-contained sources document states rereading scope and rejected defaults. No upstream code or assets are included; source reading and scenario evaluation are not player or engine validation.
+
+## Resource-selection addition · 2026-11-14
+
+The independent bilingual selection workflow synthesizes this repository's pinned recommendation template, asset/license gates and evidence levels. Its local sources file records the derivation. No new product-price or external-tool verification is claimed; actual use must recheck current official sources.

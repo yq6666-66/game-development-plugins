@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased · resource selection
+
+- Add bilingual self-contained `game-resource-selection` for contextual engine, framework, tool and asset research.
+- Separate current official evidence, budget and redistribution rights from marketing, historical notes and runtime claims.
+- Keep research distinct from installation, uploads, purchases and migration; no static product recommendations included.
+
 ## Unreleased · prototype planning
 
 - Add independent `game-prototype-planning` with Chinese entry, complete English workflow and bilingual local planning/source references.

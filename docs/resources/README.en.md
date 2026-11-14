@@ -4,6 +4,8 @@
 
 This is a recommendation format, **not a verified resource directory yet**. Any engine, framework, language, native API, custom or mixed toolchain may be assessed against project needs. Free pricing does not establish commercial or redistribution rights or unlimited service access.
 
+For on-demand research, use [game-resource-selection](../../skills/game-resource-selection/SKILL.md). It guides current evidence checks rather than shipping fixed recommendations.
+
 ## Conditional recommendation template
 
 - Name, official URL, maintainer, check date and reference version.

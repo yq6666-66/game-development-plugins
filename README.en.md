@@ -19,13 +19,14 @@ This is not a Unity/Unreal runtime plugin, game engine or guaranteed whole-game 
 
 | Skill | Scope | Not its job |
 | --- | --- | --- |
+| [game-resource-selection](skills/game-resource-selection/SKILL.md) | Contextual engine/tool/resource selection with current cost, platform and license checks | Automatic installs/purchases or treating free as redistribution permission |
 | [game-prototype-planning](skills/game-prototype-planning/SKILL.md) | Ideas, rules and minimal prototype plans with observable signals and counterevidence | Whole-game generation or substituting plans for playtests |
 | [game-visual-iteration](skills/game-visual-iteration/SKILL.md) | Reference analysis, lighting/material diagnosis, asset integration and controlled visual iteration | Replacing art direction or the toolchain |
 | [game-playloop-validation](skills/game-playloop-validation/SKILL.md) | Input, rules, state, lifecycle, restart, persistence, HUD and feedback | Inventing existing rules or authorizing deployment |
 
-All three support an existing game or an explicitly authorized new prototype. For a new project, define a minimal task and reversible assumptions instead of requiring a nonexistent legacy codebase.
+The planning, visual and playloop Skills support an existing game or an explicitly authorized new prototype. For a new project, define a minimal task and reversible assumptions instead of requiring a nonexistent legacy codebase.
 
-**Eight categories do not mean eight implemented Skills.** The three above are currently installable. Additional focused Skills, a full tools/free-resources directory, a game showcase and fully bilingual references remain future work. The [navigation](docs/navigation/README.en.md) labels availability. No game made with this bundle has yet been uploaded or verified here.
+**Eight categories do not mean eight implemented Skills.** The four above are currently installable. Additional focused Skills, a full tools/free-resources directory, a game showcase and fully bilingual references remain future work. The [navigation](docs/navigation/README.en.md) labels availability. No game made with this bundle has yet been uploaded or verified here.
 
 ## Minimal use
 
@@ -57,7 +58,7 @@ python3 scripts/validate_package.py
 python3 -m unittest discover -s tests -v
 ```
 
-These checks cover packaging and validator behavior, not host discovery, engine execution, device input or visual quality. See [historical validation](docs/VALIDATION.md), [navigation checks](docs/validation/navigation-foundation-2026-11-14.md) and [prototype-planning checks](docs/validation/prototype-planning-2026-11-14.md). The homepage, navigation and introductory tutorial are paired in Chinese and English. The new planning Skill includes a complete English workflow inside its folder. The two earlier Skills are primarily Chinese and some technical/history documents are English; complete bilingual parity is not yet claimed.
+These checks cover packaging and validator behavior, not host discovery, engine execution, device input or visual quality. See [historical validation](docs/VALIDATION.md), [navigation checks](docs/validation/navigation-foundation-2026-11-14.md), [prototype-planning checks](docs/validation/prototype-planning-2026-11-14.md) and [resource-selection checks](docs/validation/resource-selection-2026-11-14.md). The homepage, navigation and introductory tutorial are paired in Chinese and English. The new planning and resource-selection Skills include a complete English workflow inside its folder. The two earlier Skills are primarily Chinese and some technical/history documents are English; complete bilingual parity is not yet claimed.
 
 [Navigation](docs/navigation/README.en.md) · [Tutorial](docs/distillation/README.en.md) · [Compatibility](docs/COMPATIBILITY.md) · [Provenance](docs/PROVENANCE.md) · [Source audit](docs/audits/2026-11-13/README.md) · [Changelog](CHANGELOG.md) · [MIT](LICENSE)
 
