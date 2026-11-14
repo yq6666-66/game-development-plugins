@@ -18,9 +18,9 @@ Players cannot understand state, HUD is stale, or focus, text input and multi-de
 
 ## Available entry
 
-[game-playloop-validation](../../../skills/game-playloop-validation/SKILL.md). Read the actual entry and only its needed local references.
+[game-ui-design](../../../skills/game-ui-design/SKILL.md). Read the actual entry and only its needed local references.
 
-The available entry validates UI; it is not a complete design system or accessibility certification.
+The UI design Skill provides information, transition, layout and focus guidance; it is not a complete design system or accessibility certification.
 
 ## Smallest check
 
@@ -31,3 +31,5 @@ Enter, operate and leave with supported inputs; check back/cancel/restart, text 
 Choose by project needs through [resource selection](../../../skills/game-resource-selection/SKILL.md) and the [review card](../../resources/README.en.md). Categories are not engine/framework allowlists or product endorsements. Do not add an inapplicable system.
 
 Record the goal, baseline, changed scope, evidence and open items for the next category. This page is navigation, not another installable Skill; installable Skills remain self-contained.
+
+The standalone `game-ui-design` now covers this design/implementation workflow, but no runtime adapter or certification is claimed.

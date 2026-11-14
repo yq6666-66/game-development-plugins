@@ -18,9 +18,9 @@
 
 ## 当前可用入口
 
-[项目约定](../../examples/project-contract.md)。阅读真实入口及本次需要的目录内参考，不一次加载全部资料。
+[game-build-delivery](../../../skills/game-build-delivery/SKILL.md) 提供独立的构建、导出与本地交付流程；[项目约定](../../examples/project-contract.md)。阅读真实入口及本次需要的目录内参考，不一次加载全部资料。
 
-本页是协作导航清单，不是可安装的构建 Skill；发布、部署、签名与付费仍按任务授权。
+本页导航到独立构建 Skill；发布、部署、签名与付费仍按任务授权。
 
 ## 最小检查
 

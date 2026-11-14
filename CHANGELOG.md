@@ -1,5 +1,23 @@
 # Changelog
 
+## Unreleased · three-skill integration
+
+- Merge engineering, UI design and build delivery; unify bilingual navigation and compatibility counts to seven independently copyable Skills.
+- Retain both source histories and validation boundaries; no release or branch deletion.
+
+## Unreleased · engineering and UI skill construction
+
+- Add standalone bilingual game-engineering and game-ui-design workflows with portable references and versioned source decisions.
+- Initially add two Skills on the six-Skill branch; build-delivery was developed separately. The integration below unifies seven Skills; product catalogs remain unverified.
+- Add isolated-copy package regression checks. No engine/host/game execution is claimed.
+
+
+## Unreleased · build delivery
+
+- Add independent engine-neutral `game-build-delivery` with paired workflow, artifact evidence and pinned GitHub provenance.
+- Route build navigation to the portable Skill; distinguish cache/build/package/launch/release evidence.
+- No upstream tools, engine tests, signing, release or deployment performed.
+
 ## Unreleased · eight-category navigation
 
 - Complete eight paired Chinese/English category guides with task triggers, inputs/outputs, new/existing-project routes, available entries, minimum checks and explicit gaps.

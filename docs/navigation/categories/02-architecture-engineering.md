@@ -18,9 +18,9 @@
 
 ## 当前可用入口
 
-[game-playloop-validation](../../../skills/game-playloop-validation/SKILL.md)。阅读真实入口及本次需要的目录内参考，不一次加载全部资料。
+[game-engineering](../../../skills/game-engineering/SKILL.md)。阅读真实入口及本次需要的目录内参考，不一次加载全部资料。
 
-现有方法覆盖诊断，尚无独立工程搭建/架构实现 Skill。
+独立工程 Skill 已提供从方案到授权内最小切片的流程；不是预制引擎工程或跨引擎运行认证。
 
 ## 最小检查
 

@@ -19,6 +19,9 @@
 
 | Skill | 适用任务 | 边界 |
 | --- | --- | --- |
+| [game-engineering](skills/game-engineering/SKILL.md) | 工程搭建、所有权与依赖边界的小步实现 | 不默认重构或更换引擎 |
+| [game-ui-design](skills/game-ui-design/SKILL.md) | 一屏信息层级、状态转换、布局与焦点设计 | 不以静帧代替操作验证 |
+| [game-build-delivery](skills/game-build-delivery/SKILL.md) | 构建、导出、缓存排错与可追溯本地交付 | 不自动签名、发布或部署，不以构建代替玩法验证 |
 | [game-resource-selection](skills/game-resource-selection/SKILL.md) | 按项目选择引擎、工具与资源，核查当前费用、平台和许可 | 不自动安装或付费，不把免费当作再分发授权 |
 | [game-prototype-planning](skills/game-prototype-planning/SKILL.md) | 创意、规则与最小原型计划，定义观察信号和反证 | 不生成完整游戏，不以方案代替试玩 |
 | [game-visual-iteration](skills/game-visual-iteration/SKILL.md) | 视觉参考拆解、材质与光照排错、资产接入、画面小步对比 | 不替代美术方向，不默认更换工具链 |
@@ -26,7 +29,7 @@
 
 原型、画面与玩法三项 Skill 均支持已有工程或明确授权的新原型；尚未建立工程时，先写最小任务与可撤销假设，不把“缺少旧工程”当作拒绝从零开发的理由。
 
-**八类中英文导航已补齐，但不等于八项已实现技能。** 目前有上述四项可复制使用。更多独立 Skills、完整工具与免费资源目录、作品展示及完整双语参考库属于后续工作；[导航页](docs/navigation/README.md)逐项标明状态。尚未上传或验证使用本插件完成的游戏。
+**八类中英文导航已补齐，但不等于八项已实现技能。** 目前有上述七项可复制使用。更多独立 Skills、完整工具与免费资源目录、作品展示及完整双语参考库属于后续工作；[导航页](docs/navigation/README.md)逐项标明状态。尚未上传或验证使用本插件完成的游戏。
 
 ## 最小使用流程
 
@@ -72,4 +75,6 @@ python3 -m unittest discover -s tests -v
 
 [每日研究](docs/research/daily/2026-11-14.md)为玩法闭环 Skill 补充存档关系恢复和重要声音信息覆盖的中英文参考。[验证范围](docs/validation/market-2026-11-14.md)区分包检查与游戏运行；原始日分支独立开展研究，本次整合保留其来源和历史验证范围。
 
-[GitHub 追加蒸馏](docs/research/daily/2026-11-14-github-continuation.md)：补充异步结果、夹具清理、首次状态分歧和测试检出力检查；保持四项 Skills，不增加重复入口。
+[GitHub 追加蒸馏](docs/research/daily/2026-11-14-github-continuation.md)：补充异步结果、夹具清理、首次状态分歧和测试检出力检查；当轮保持四项 Skills，不增加重复入口。
+
+新增工程与界面设计两项独立 Skill，均带完整英文流程与目录内来源；[建设与验证记录](docs/validation/engineering-ui-2026-11-14.md)。
