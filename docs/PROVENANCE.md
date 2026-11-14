@@ -40,3 +40,7 @@ The independent bilingual selection workflow synthesizes this repository's pinne
 ## GitHub continuation · 2026-11-14
 
 [Research](research/daily/2026-11-14-github-continuation.md) records pinned GUT and abagames readings and discarded absolute claims. Original paraphrase only; no upstream code, fixture or asset copied. Both inspected licenses are MIT; that does not relicense unrelated dependencies or content.
+
+## Engineering and UI construction · 2026-11-14
+
+New original workflows record sources within [engineering](../skills/game-engineering/references/sources.md) and [UI](../skills/game-ui-design/references/sources.md). Godot documentation is CC BY 3.0, demo code MIT; neither source is relicensed by this repository. The OpenAI source is a non-reused lead with unconfirmed license. [Reading and validation scope](validation/engineering-ui-2026-11-14.md).

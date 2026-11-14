@@ -19,6 +19,8 @@ This is not a Unity/Unreal runtime plugin, game engine or guaranteed whole-game 
 
 | Skill | Scope | Not its job |
 | --- | --- | --- |
+| [game-engineering](skills/game-engineering/SKILL.md) | Bounded project setup, ownership and dependency changes | No automatic rewrite or engine migration |
+| [game-ui-design](skills/game-ui-design/SKILL.md) | Screen information, transitions, layout and focus design | Not a screenshot-only usability claim |
 | [game-resource-selection](skills/game-resource-selection/SKILL.md) | Contextual engine/tool/resource selection with current cost, platform and license checks | Automatic installs/purchases or treating free as redistribution permission |
 | [game-prototype-planning](skills/game-prototype-planning/SKILL.md) | Ideas, rules and minimal prototype plans with observable signals and counterevidence | Whole-game generation or substituting plans for playtests |
 | [game-visual-iteration](skills/game-visual-iteration/SKILL.md) | Reference analysis, lighting/material diagnosis, asset integration and controlled visual iteration | Replacing art direction or the toolchain |
@@ -26,7 +28,7 @@ This is not a Unity/Unreal runtime plugin, game engine or guaranteed whole-game 
 
 The planning, visual and playloop Skills support an existing game or an explicitly authorized new prototype. For a new project, define a minimal task and reversible assumptions instead of requiring a nonexistent legacy codebase.
 
-**All eight bilingual category guides are complete, but this does not mean eight implemented Skills.** The four above are currently installable. Additional focused Skills, a full tools/free-resources directory, a game showcase and fully bilingual references remain future work. The [navigation](docs/navigation/README.en.md) labels availability. No game made with this bundle has yet been uploaded or verified here.
+**All eight bilingual category guides are complete, but this does not mean eight implemented Skills.** The six above are currently installable. Additional focused Skills, a full tools/free-resources directory, a game showcase and fully bilingual references remain future work. The [navigation](docs/navigation/README.en.md) labels availability. No game made with this bundle has yet been uploaded or verified here.
 
 ## Minimal use
 
@@ -71,3 +73,5 @@ Reading this bundle does not authorize spending, uploads, game modifications, me
 The [daily research](docs/research/daily/2026-11-14.md) adds bilingual references for recovery relationships and essential audio information to the playloop Skill. [Validation scope](docs/validation/market-2026-11-14.md) distinguishes package checks from game execution. This integration preserves the independent daily branch's sources and historical evidence limits.
 
 [Additional GitHub research](docs/research/daily/2026-11-14-github-continuation.md) adds scoped async-result, fixture-cleanup, state-divergence and detection-power checks without adding another Skill.
+
+Two new standalone engineering/UI Skills include complete English workflows and local source records. [Construction and validation](docs/validation/engineering-ui-2026-11-14.md).

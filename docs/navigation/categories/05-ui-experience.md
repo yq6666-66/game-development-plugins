@@ -18,9 +18,9 @@
 
 ## 当前可用入口
 
-[game-playloop-validation](../../../skills/game-playloop-validation/SKILL.md)。阅读真实入口及本次需要的目录内参考，不一次加载全部资料。
+[game-ui-design](../../../skills/game-ui-design/SKILL.md)。阅读真实入口及本次需要的目录内参考，不一次加载全部资料。
 
-现有入口提供界面验证，不是完整 UI 设计系统或全面无障碍认证。
+独立 UI 设计 Skill 已提供信息层级、转换、布局与焦点流程；不是完整设计系统或全面无障碍认证。
 
 ## 最小检查
 

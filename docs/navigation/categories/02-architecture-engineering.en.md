@@ -18,9 +18,9 @@ Responsibilities, state ownership, dependencies or project entry points are uncl
 
 ## Available entry
 
-[game-playloop-validation](../../../skills/game-playloop-validation/SKILL.md). Read the actual entry and only its needed local references.
+[game-engineering](../../../skills/game-engineering/SKILL.md). Read the actual entry and only its needed local references.
 
-Existing methods support diagnosis; there is no dedicated scaffolding/architecture implementation Skill.
+The engineering Skill provides bounded design and implementation guidance, not a prebuilt engine project or runtime certification.
 
 ## Smallest check
 
@@ -31,3 +31,5 @@ Trace one input-to-state-to-UI path and ownership after exit/restart; a static d
 Choose by project needs through [resource selection](../../../skills/game-resource-selection/SKILL.md) and the [review card](../../resources/README.en.md). Categories are not engine/framework allowlists or product endorsements. Do not add an inapplicable system.
 
 Record the goal, baseline, changed scope, evidence and open items for the next category. This page is navigation, not another installable Skill; installable Skills remain self-contained.
+
+The standalone `game-engineering` now covers this design/implementation workflow, but no runtime adapter or certification is claimed.

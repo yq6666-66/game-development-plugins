@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased · engineering and UI skill construction
+
+- Add standalone bilingual game-engineering and game-ui-design workflows with portable references and versioned source decisions.
+- Update live navigation to six Skills; build-delivery and verified product catalogs remain separate work.
+- Add isolated-copy package regression checks. No engine/host/game execution is claimed.
+
+
 ## Unreleased · eight-category navigation
 
 - Complete eight paired Chinese/English category guides with task triggers, inputs/outputs, new/existing-project routes, available entries, minimum checks and explicit gaps.
