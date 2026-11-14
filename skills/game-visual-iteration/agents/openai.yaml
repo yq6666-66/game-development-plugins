@@ -1,0 +1,6 @@
+interface:
+  display_name: 游戏画面小步迭代
+  short_description: 把游戏画面参考转成保留原工程、可操作验证的灯光与材质小样
+  default_prompt: 使用 $game-visual-iteration，核对当前游戏基线并规划一个可验证的画面改进样本。
+policy:
+  allow_implicit_invocation: true
