@@ -11,3 +11,5 @@ Distinguish spatial parentage from destruction ownership. A persistent player sh
 Implement one authorized vertical slice while preserving callers and a baseline. Keep configuration, asset identity, serializable state and live objects conceptually distinct, without a mandatory folder or format. Do not upgrade engines, add services or publish implicitly. Compile and start the real entry, then exercise relevant exit/reload/cancel behavior. Test two instances if instancing is supported; shared state must be intentional.
 
 Deliver changed paths, interface decisions, alternatives, commands, observed results and recovery. Label static analysis, compilation and runtime separately; a unit test does not establish scene assembly. Missing device evidence is unverified. Escalate material scope changes rather than expanding the architecture. [Sources](sources.md).
+
+Prefer existing runtime dependencies. For a necessary missing dependency, follow explicit task authorization and host rules rather than refusing a new project solely because no dependencies exist yet. This Skill itself does not authorize installation, new services, engine upgrades or publication.

@@ -1,5 +1,17 @@
 # Changelog
 
+## Unreleased · workflow parity and portable references
+
+- Add complete English core workflows for visual iteration and playloop validation, preserving conditional reference loading and evidence boundaries.
+- Align the engineering dependency wording: reuse existing dependencies, handle necessary missing ones only under task/host authorization.
+- Validate explicit, collapsed and defined shortcut Markdown references within a documented single-line subset, with negative fixtures; ignore code examples.
+- No new Skill or upstream runtime dependency; seven Skills remain.
+## Unreleased · daily research 2026-11-15
+
+- Add portable bilingual screenshot-result, UI-input-isolation and cloud-save-evidence references to existing visual/playloop Skills.
+- Record fixed-source reading, independent scenario walkthroughs and static package checks separately from unperformed engine/game runs.
+- Keep seven Skills; no merge, release, paid service or game modification.
+
 ## Unreleased · three-skill integration
 
 - Merge engineering, UI design and build delivery; unify bilingual navigation and compatibility counts to seven independently copyable Skills.
