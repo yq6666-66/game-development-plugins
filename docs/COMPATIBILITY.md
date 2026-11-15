@@ -23,3 +23,7 @@ Codex CLI `0.167.0-alpha.4` app-server discovered `game-resource-selection` from
 The package validator checks file targets for inline links and same-document reference links (`[text][id]`, `[id][]`, and `[id]` when a definition exists). It supports single-line `[id]: path` or `[id]: <path>` definitions without titles, with case-insensitive, whitespace-normalized labels. Duplicate definitions are rejected by this package convention; explicit/collapsed undefined labels are errors. Fenced and inline code examples (including multiline code spans with equal-length backtick delimiters) are excluded. Escaped square brackets/backticks are masked with backslash parity preserved.
 
 This is a bounded packaging check, not a CommonMark parser: multiline destinations, optional titles, general escape syntax/nested brackets, embedded HTML, percent-encoded paths and fragment/heading validity are not fully validated. External URL accessibility is not tested. Prefer the supported plain syntax for required portable references, and manually review other forms. A parser PASS does not establish host loading or gameplay.
+
+## 双宿主候选封装
+
+新增插件清单不扩大引擎兼容性承诺。见[安装说明](../PLUGIN-README.md)与[独立证据记录](validation/dual-host-plugin-2026-11-15.md)。宿主发现、实际调用和实际游戏运行分别验收。

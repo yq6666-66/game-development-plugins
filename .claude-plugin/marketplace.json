@@ -1,0 +1,12 @@
+{
+  "name": "game-development-plugins",
+  "owner": {
+    "name": "yq6666-66"
+  },
+  "plugins": [
+    {
+      "name": "game-development-plugins",
+      "source": "./"
+    }
+  ]
+}

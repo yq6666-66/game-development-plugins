@@ -1,0 +1,20 @@
+{
+  "name": "game-development-plugins",
+  "interface": {
+    "displayName": "游戏开发插件"
+  },
+  "plugins": [
+    {
+      "name": "game-development-plugins",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

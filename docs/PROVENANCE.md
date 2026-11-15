@@ -61,3 +61,7 @@ This pass is based on an audit of the seven local Skills at `8693e66d50f40b70f95
 ## Legacy-method distillation · 2026-11-15
 
 Original bilingual worksheets synthesize the existing historical planning/visual branches, not new upstream research. Fixed source commits and exclusions are recorded inside the portable [worksheet](../skills/game-visual-iteration/references/visual-experiment-card.md). No project assets or settings copied; [validation](validation/legacy-methods-2026-11-15.md) separates scenario reasoning from execution.
+
+## 插件封装规范（2026-11-15）
+
+阅读范围：OpenAI [Build plugins](https://developers.openai.com/plugins/build/plugins) 的清单、标准目录和 marketplace 约定；Anthropic [Plugins reference](https://code.claude.com/docs/en/plugins-reference) 与 [Plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces) 的清单、技能发现及目录约定。实现独立编写，不复制第三方技能或素材。动态官方文档无固定提交；宿主实测状态另记，文档阅读不等于兼容通过。

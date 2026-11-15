@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "game-development-plugins",
+  "version": "0.1.0",
+  "description": "Engine-neutral game development skills / 通用游戏开发技能",
+  "author": {
+    "name": "yq6666-66"
+  },
+  "homepage": "https://github.com/yq6666-66/game-development-plugins",
+  "repository": "https://github.com/yq6666-66/game-development-plugins",
+  "license": "MIT"
+}

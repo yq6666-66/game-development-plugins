@@ -6,6 +6,13 @@ A continually distilled **AI Agent Skills bundle** for game-development learners
 
 This is not a Unity/Unreal runtime plugin, game engine or guaranteed whole-game generator. Methods are not tied to an engine, framework, language or genre; Three.js is only one possible implementation choice. Verify APIs, dependencies and performance in the actual project version and target device.
 
+## Dual-host plugin candidate
+
+The existing individual-Skill copy workflow remains available. Codex and Claude Code manifests now share the same `skills/` directory. **0.1.0 is a candidate**, not a claim of complete dual-host acceptance or an official-directory listing.
+
+See the [installation guide](PLUGIN-README.en.md), [approved implementation scope](docs/plans/dual-host-plugin/README.md), and [validation record](docs/validation/dual-host-plugin-2026-11-15.md). No MCP server, hooks, background tasks or automatic game-project modification scripts are included.
+
+
 ## Start here
 
 | Situation | Entry |

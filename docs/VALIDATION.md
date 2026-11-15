@@ -27,3 +27,7 @@ These were independent instruction-following walkthroughs, not actual 2D or Unit
 - [ ] Host discovery tested if claiming an installed integration.
 
 Unverified: runtime behavior of Unity, browsers or other engines; target hardware; upstream tool security; commercial rights for third-party assets. A package-validation PASS does not change these statuses.
+
+## 双宿主插件候选验证
+
+见[2026-11-15 独立记录](validation/dual-host-plugin-2026-11-15.md)。历史记录不变；包结构、宿主调用与游戏运行保持分层。
