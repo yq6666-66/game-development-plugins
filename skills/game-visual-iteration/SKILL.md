@@ -38,6 +38,8 @@ description: Diagnose and improve visual readability in an existing game or an a
 
 ## 4. 按需深入
 
+需要把基线冲突、参考迁移和静态/动态证据写成具体实验时，使用[视觉实验填写卡](references/visual-experiment-card.md)（[English](references/visual-experiment-card.en.md)）；既有项目和授权的新样板分别处理。
+
 - 资产导入、批次、动画、材质异常或性能：读 [资产到实时画面的阶段门](references/asset-runtime-gates.md)。重点是源→导出→导入→运行合同及覆盖范围，不是默认执行全部阶段。
 - 参考内容溯源、许可或方法选择：读 [经验来源](references/sources.md) 与 [工作流来源](references/workflow-sources.md)。来源链接不授予执行其工具或脚本的权限。
 - 自动截图或基线比较：读 [确定性与结果完整性](references/visual-regression-evidence.md)（[English](references/visual-regression-evidence.en.md)），把像素夹具与真实输入验收分开。

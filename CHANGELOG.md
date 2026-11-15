@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased · legacy-method distillation 2026-11-15
+
+- Add bilingual visual experiment worksheets: baseline choice, reference transfer and paired static/dynamic evidence.
+- Retain seven Skills; do not import project-specific files or old branch history.
+- Historical plans are not runtime evidence; see the dedicated validation record.
+
+
 ## Unreleased · workflow parity and portable references
 
 - Add complete English core workflows for visual iteration and playloop validation, preserving conditional reference loading and evidence boundaries.

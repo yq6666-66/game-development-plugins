@@ -29,6 +29,8 @@ Use normal controls beyond still-image comparison to inspect dynamic occlusion, 
 
 ## Read details only when needed
 
+For a concrete baseline, reference-transfer and static/dynamic evidence plan, use the [visual experiment worksheet](visual-experiment-card.en.md). Distinguish existing projects from authorized new samples.
+
 - Import, batching, animation, materials or performance: [asset-to-runtime gates](asset-runtime-gates.md), matching source, export, import and runtime contracts rather than requiring every stage every time.
 - Mesh statistics, LOD transitions or animation seams: [English focused checks](mesh-lod-animation-checks.en.md).
 - Provenance, permissions and method selection: [source notes](sources.md) and [workflow sources](workflow-sources.md). These detailed historical references remain partly Chinese. Links do not authorize running upstream tools.
