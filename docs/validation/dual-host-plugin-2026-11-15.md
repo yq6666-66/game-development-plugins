@@ -78,3 +78,15 @@ codex plugin list --json
 验证警告：缺少 marketplace description 与官方目录 icon。另有 README 一步安装提示。这些不改变 validator 的通过结果，但**不代表已满足官方上架所有条件**。暂不为消除目录图标警告引入未确认的品牌图；description 和安装入口可随下一候选打包修订。官方目录还需安全扫描、政策审查及账号权限。本轮仅记录证据，不改既有候选包。
 
 **未登录、未发起模型调用、未付费。真实任务调用、跨版本升级/降级及 Windows 仍未验证，正式发布和上架未执行。** 日志只替换隔离路径，没有把宿主估算 token 数当实际用量。后续重新运行的结构检查与 27 项单测不替代以上未验证项。
+
+## 补充：双宿主本地合成跨版本测试
+
+独立核验者建立独立插件副本和隔离宿主配置，先安装副本版本 0.1.0，再仅把该副本的两份 plugin 清单改为 **测试用 0.1.1**。仓库正式清单及发行包仍为 0.1.0；这不是正式 0.1.1 发布。
+
+- Codex：再次执行 `plugin add game-development-plugins@game-development-plugins`，返回 0.1.1 安装缓存；新 app-server 的 `skills/list` 发现全部 7 技能，路径均在 0.1.1 缓存且 errors=[]。这是本地目录重新安装路径，不是 marketplace upgrade 或远程更新传播测试。
+- Claude Code：`plugin update game-development-plugins@game-development-plugins` 明确返回从 0.1.0 更新至 0.1.1；list 与 details 核对 0.1.1 和全部 7 技能。
+- 两端测试后卸载，列表均为空。未登录或发模型请求。执行环境和宿主版本沿用上述 Linux 隔离测试。
+
+归档：[Codex 0.1.0 安装](dual-host-plugin-2026-11-15/synthetic-upgrade/codex-install-010.log)、[0.1.1 重新安装](dual-host-plugin-2026-11-15/synthetic-upgrade/codex-reinstall-011.log)、[列表](dual-host-plugin-2026-11-15/synthetic-upgrade/codex-list-011.log)、[技能发现](dual-host-plugin-2026-11-15/synthetic-upgrade/codex-skills-011-filtered.json)、[卸载后](dual-host-plugin-2026-11-15/synthetic-upgrade/codex-list-after-remove.log)；[Claude 0.1.0 安装](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-install-010.log)、[初始列表](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-list-010.log)、[更新](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-update-011.log)、[新列表](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-list-011.log)、[新详情](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-details-011.log)、[卸载后](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-list-after-uninstall.log)。日志处理规则同上，仅替换隔离路径与筛除无关宿主信息。
+
+本补充把**本地合成升级**状态更新为 PASS。此前升级未验证记录保留原时间范围。**远程 Git/目录传播、降级回滚、真实任务调用、Windows、正式发布与官方上架仍未验证或未执行**；不得将本测试外推为这些项目通过。

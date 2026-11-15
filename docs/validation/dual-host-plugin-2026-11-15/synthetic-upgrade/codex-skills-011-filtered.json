@@ -1,0 +1,48 @@
+{
+  "note": "Only plugin entries retained; unrelated environment notifications and system skills omitted; isolated paths replaced.",
+  "skills": [
+    {
+      "name": "game-development-plugins:game-build-delivery",
+      "enabled": true,
+      "pluginId": "game-development-plugins@game-development-plugins",
+      "path": "<ISOLATED_UPGRADE_ROOT>/codex/plugins/cache/game-development-plugins/game-development-plugins/0.1.1/skills/game-build-delivery/SKILL.md"
+    },
+    {
+      "name": "game-development-plugins:game-engineering",
+      "enabled": true,
+      "pluginId": "game-development-plugins@game-development-plugins",
+      "path": "<ISOLATED_UPGRADE_ROOT>/codex/plugins/cache/game-development-plugins/game-development-plugins/0.1.1/skills/game-engineering/SKILL.md"
+    },
+    {
+      "name": "game-development-plugins:game-playloop-validation",
+      "enabled": true,
+      "pluginId": "game-development-plugins@game-development-plugins",
+      "path": "<ISOLATED_UPGRADE_ROOT>/codex/plugins/cache/game-development-plugins/game-development-plugins/0.1.1/skills/game-playloop-validation/SKILL.md"
+    },
+    {
+      "name": "game-development-plugins:game-prototype-planning",
+      "enabled": true,
+      "pluginId": "game-development-plugins@game-development-plugins",
+      "path": "<ISOLATED_UPGRADE_ROOT>/codex/plugins/cache/game-development-plugins/game-development-plugins/0.1.1/skills/game-prototype-planning/SKILL.md"
+    },
+    {
+      "name": "game-development-plugins:game-resource-selection",
+      "enabled": true,
+      "pluginId": "game-development-plugins@game-development-plugins",
+      "path": "<ISOLATED_UPGRADE_ROOT>/codex/plugins/cache/game-development-plugins/game-development-plugins/0.1.1/skills/game-resource-selection/SKILL.md"
+    },
+    {
+      "name": "game-development-plugins:game-ui-design",
+      "enabled": true,
+      "pluginId": "game-development-plugins@game-development-plugins",
+      "path": "<ISOLATED_UPGRADE_ROOT>/codex/plugins/cache/game-development-plugins/game-development-plugins/0.1.1/skills/game-ui-design/SKILL.md"
+    },
+    {
+      "name": "game-development-plugins:game-visual-iteration",
+      "enabled": true,
+      "pluginId": "game-development-plugins@game-development-plugins",
+      "path": "<ISOLATED_UPGRADE_ROOT>/codex/plugins/cache/game-development-plugins/game-development-plugins/0.1.1/skills/game-visual-iteration/SKILL.md"
+    }
+  ],
+  "errors": []
+}
