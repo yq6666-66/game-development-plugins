@@ -76,3 +76,7 @@ The [daily research](docs/research/daily/2026-11-14.md) adds bilingual reference
 [Additional GitHub research](docs/research/daily/2026-11-14-github-continuation.md) adds scoped async-result, fixture-cleanup, state-divergence and detection-power checks without adding another Skill.
 
 Two new standalone engineering/UI Skills include complete English workflows and local source records. [Construction and validation](docs/validation/engineering-ui-2026-11-14.md).
+
+## Daily research · 2026-11-15
+
+[Three topics](docs/research/daily/2026-11-15.md): screenshot readiness/result completeness, UI event versus held-input isolation, and cloud-save conflict evidence. Portable bilingual references extend the two existing tracks; seven Skills remain. [Validation scope](docs/validation/daily-2026-11-15.md) excludes engine/game execution.

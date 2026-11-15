@@ -78,3 +78,7 @@ python3 -m unittest discover -s tests -v
 [GitHub 追加蒸馏](docs/research/daily/2026-11-14-github-continuation.md)：补充异步结果、夹具清理、首次状态分歧和测试检出力检查；当轮保持四项 Skills，不增加重复入口。
 
 新增工程与界面设计两项独立 Skill，均带完整英文流程与目录内来源；[建设与验证记录](docs/validation/engineering-ui-2026-11-14.md)。
+
+## 每日研究 · 2026-11-15
+
+[三项蒸馏](docs/research/daily/2026-11-15.md)：自动截图的就绪与结果完整性、UI事件与持续输入隔离、云存档并发证据。增补两条主线的目录内中英参考，仍为七项Skills；[检查范围](docs/validation/daily-2026-11-15.md)不包含引擎或游戏运行。

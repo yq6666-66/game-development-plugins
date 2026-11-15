@@ -49,3 +49,7 @@ New original workflows record sources within [engineering](../skills/game-engine
 ## Build delivery · 2026-11-14
 
 Original synthesis from GameCI unity-builder and Godot contributor documentation. [Fixed versions, read scope and licenses](../skills/game-build-delivery/references/build-checks.md). No upstream code or assets included; source review is not build/runtime validation.
+
+## Daily research · 2026-11-15
+
+[Reading scope](research/daily/2026-11-15.md) pins Three.js E2E and Godot input sources, plus versioned/online Unity Cloud Save and Steam Cloud documentation. New bilingual references are original synthesis and links, not redistributed code or assets. Author issue reports and static risk judgments remain distinct from runtime reproduction. No upstream tool or game was executed.
