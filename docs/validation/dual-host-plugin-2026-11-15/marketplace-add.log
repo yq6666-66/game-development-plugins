@@ -1,0 +1,6 @@
+WARNING: proceeding, even though we could not create PATH aliases: Refusing to create helper binaries under temporary dir "/tmp" (codex_home: AbsolutePathBuf("<ISOLATED_CODEX_HOME>"))
+{
+  "marketplaceName": "game-development-plugins",
+  "installedRoot": "<CANDIDATE_ROOT>",
+  "alreadyAdded": false
+}

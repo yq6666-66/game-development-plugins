@@ -21,6 +21,7 @@ git diff --check
 | 自动化测试 | PASS；27 项，包括确定性 ZIP、解包后再校验、7 技能、版本不一致、符号链接、输出覆盖保护、目录逃逸和两宿主 source 互换负测 |
 | 差异空白检查 | PASS；`git diff --check` |
 | 代码独立审阅 | 已修复审阅发现的 Windows 默认编码风险和目录 source 类型过宽；清单读取显式 UTF-8，互换回归测试先失败后修正通过 |
+| Codex 隔离安装/发现/卸载 | PASS；0.167.0-alpha.4，7 项插件技能 enabled，errors=[]，卸载后 installed=[]；见下方日志范围 |
 | 宿主真实技能调用 | 未验证；结构、安装与目录发现不能替代 Agent 实际调用 |
 | Claude Code | BLOCKED；环境无 Claude Code，不擅自安装 |
 | 游戏/引擎运行 | 未运行；本轮只封装已有技能，不宣称游戏效果或引擎兼容通过 |
@@ -40,3 +41,23 @@ SHA256：`eab9e03f6c1fbc3bfbc82ac2c730ec318c4247cfdfbda02c21d6dbb1ab3d4c67`。
 5. 缺少 Claude/登录/官方资格：保留候选成果，不伪造验收，也不自动安装、付费、接受未知条款或发布。
 
 实际双宿主调用完成后应另增有时间、宿主版本、输入、输出及日志的证据，而非回写本轮为成功。
+
+## 补充：Codex 隔离宿主实测
+
+独立核验者使用 `codex-cli 0.167.0-alpha.4`、Debian 13 x86_64，以全新临时 `CODEX_HOME` 执行：
+
+```sh
+codex plugin marketplace add <CANDIDATE_ROOT> --json
+codex plugin add game-development-plugins@game-development-plugins --json
+codex plugin list --json
+# codex app-server：initialize 后请求 skills/list
+# params: {"forceReload": true, "cwds": ["/tmp"]}
+codex plugin remove game-development-plugins@game-development-plugins --json
+codex plugin list --json
+```
+
+结果：安装版本 0.1.0，installed=true、enabled=true；宿主 skills/list 实际发现命名空间下全部 7 项技能，全部 enabled=true，errors=[]。卸载后 installed=[]，独立核验者确认该版本缓存不再存在。未发起模型回合、未登录、未付费、未修改用户原有配置。
+
+[安装](dual-host-plugin-2026-11-15/plugin-add.log)、[安装列表](dual-host-plugin-2026-11-15/plugin-list.log)、[目录添加](dual-host-plugin-2026-11-15/marketplace-add.log)、[技能发现筛选记录](dual-host-plugin-2026-11-15/skills-list-filtered.json)、[卸载](dual-host-plugin-2026-11-15/plugin-remove.log)、[卸载后列表](dual-host-plugin-2026-11-15/plugin-list-after-remove.log)。日志中的临时工作路径已替换为占位符，技能发现记录只保留本插件；其余宿主内置技能与无关环境通知不公开。PATH alias 的临时目录警告原样保留，不影响上述返回结果。
+
+**真实技能调用、升级/降级、Windows、Claude Code 仍未验证。** 本机 alpha 实测不是最低版本或所有 Codex 客户端的兼容承诺。独立代码复核再次运行 27 项测试与分发结构检查通过。该补充仅增加证据，不改变候选发行包、不构成发布或上架。
