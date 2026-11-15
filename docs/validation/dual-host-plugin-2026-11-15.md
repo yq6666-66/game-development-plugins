@@ -90,3 +90,28 @@ codex plugin list --json
 归档：[Codex 0.1.0 安装](dual-host-plugin-2026-11-15/synthetic-upgrade/codex-install-010.log)、[0.1.1 重新安装](dual-host-plugin-2026-11-15/synthetic-upgrade/codex-reinstall-011.log)、[列表](dual-host-plugin-2026-11-15/synthetic-upgrade/codex-list-011.log)、[技能发现](dual-host-plugin-2026-11-15/synthetic-upgrade/codex-skills-011-filtered.json)、[卸载后](dual-host-plugin-2026-11-15/synthetic-upgrade/codex-list-after-remove.log)；[Claude 0.1.0 安装](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-install-010.log)、[初始列表](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-list-010.log)、[更新](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-update-011.log)、[新列表](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-list-011.log)、[新详情](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-details-011.log)、[卸载后](dual-host-plugin-2026-11-15/synthetic-upgrade/claude-list-after-uninstall.log)。日志处理规则同上，仅替换隔离路径与筛除无关宿主信息。
 
 本补充把**本地合成升级**状态更新为 PASS。此前升级未验证记录保留原时间范围。**远程 Git/目录传播、降级回滚、真实任务调用、Windows、正式发布与官方上架仍未验证或未执行**；不得将本测试外推为这些项目通过。
+
+## 补充：Windows 隔离安装与用户选择跳过真实调用
+
+同日 Windows 实测由连接该电脑的核验者执行并报告。本记录依据其实际执行报告；Windows 原始文件仍保存在本机独立证据目录，未把未取得的原始日志冒充为本仓库附件。公开记录不包含个人目录或凭据。
+
+| 项目 | 结果 |
+| --- | --- |
+| 候选包传输和完整性 | PASS；通过获授权 Library 传输，SHA256 与本文 r2 候选完全一致 |
+| Windows Codex 0.146.0 隔离安装 | PASS；新 CODEX_HOME 内添加本地 marketplace 并安装，plugin list 显示 version=0.1.0、installed=true、enabled=true |
+| Windows Codex 真实技能读取/任务调用 | BLOCKED 后按用户选择跳过；未能安全组合隔离插件配置与已有登录，不能认定技能读取或任务通过 |
+| Windows Claude Code 2.1.167 | 登录状态 loggedIn=false、authMethod=none；未尝试登录；真实任务按用户选择跳过 |
+| 游戏运行 | 未运行；不属于本轮插件封装实测 |
+
+核验者执行的安装步骤（路径占位符只指独立证据目录）：
+
+```powershell
+$env:CODEX_HOME = '<EVIDENCE_ROOT>\isolated-codex'
+codex plugin marketplace add '<EVIDENCE_ROOT>\candidate'
+codex plugin add game-development-plugins@game-development-plugins
+codex plugin list --json
+```
+
+执行结束恢复原 CODEX_HOME；未复制登录凭据、未修改个人配置或游戏工程。本机证据文件名为 `codex-plugin-list.json` 与 `HOST-TEST-RESULT.txt`，保留候选包及隔离配置以供后续检查。GitHub 下载受策略阻止后使用已授权 Library 传输，未绕过策略。
+
+**用户明确选择不再等待登录和两端真实任务调用。该选择记录为 SKIPPED，不是 PASS，也不等于批准把原完整验收门槛视为已满足。** 后续不自动重试登录或调用。两端模型真实任务及 Windows Claude 安装/调用验收仍不完整；正式发布、官方上架和主分支合并未执行。本条只更新验证状态，发行包未变。
