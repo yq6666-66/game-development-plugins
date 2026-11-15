@@ -8,7 +8,7 @@ This is not a Unity/Unreal runtime plugin, game engine or guaranteed whole-game 
 
 ## Dual-host plugin candidate
 
-The existing individual-Skill copy workflow remains available. Codex and Claude Code manifests now share the same `skills/` directory. **0.1.0 is a candidate**, not a claim of complete dual-host acceptance or an official-directory listing.
+The existing individual-Skill copy workflow remains available. Codex and Claude Code manifests now share the same `skills/` directory. **0.1.0 is an initial release with limited validation**, not a claim of complete dual-host acceptance or an official-directory listing.
 
 See the [installation guide](PLUGIN-README.en.md), [approved implementation scope](docs/plans/dual-host-plugin/README.md), and [validation record](docs/validation/dual-host-plugin-2026-11-15.md). No MCP server, hooks, background tasks or automatic game-project modification scripts are included.
 

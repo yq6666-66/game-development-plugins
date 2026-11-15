@@ -8,7 +8,7 @@
 
 ## 双宿主插件候选版
 
-保留原有单项 Skill 复制方式，同时提供共享同一 `skills/` 的 Codex 与 Claude Code 插件清单。当前为 **0.1.0 候选版**，不是已通过双宿主验收或已在官方目录上架的正式版本。
+保留原有单项 Skill 复制方式，同时提供共享同一 `skills/` 的 Codex 与 Claude Code 插件清单。当前为 **0.1.0 首版（按现有验证范围发布）**，不是已通过双宿主验收或已在官方目录上架的正式版本。
 
 参见[中文安装与使用](PLUGIN-README.md)、[实施方案](docs/plans/dual-host-plugin/README.md)及[本轮验证记录](docs/validation/dual-host-plugin-2026-11-15.md)。本插件不附带 MCP、hooks、后台任务或自动修改游戏工程的脚本。
 

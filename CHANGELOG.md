@@ -1,11 +1,11 @@
 # Changelog
 
-## Unreleased · dual-host plugin candidate 2026-11-15
+## 0.1.0 · dual-host packaging 2026-11-15
 
 - Add Codex and Claude Code manifests and local catalogs sharing the existing seven Skills.
 - Add bilingual installation, update, rollback and removal guidance without replacing manual Skill installation.
 - Add a deterministic, allowlisted ZIP builder and distribution safety tests; preserve existing output files.
-- Record approved scope and separate structural checks from host discovery, real invocation and official listing. No formal release or listing is claimed.
+- Record structural checks, isolated host discovery and synthetic local upgrades separately from actual invocation. Owner approved release with known skipped invocation and incomplete Windows validation; no official-directory listing is claimed.
 
 
 ## Unreleased · legacy-method distillation 2026-11-15

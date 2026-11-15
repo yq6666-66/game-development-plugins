@@ -1,6 +1,6 @@
 # Game Development Plugins: installation and use
 
-[中文](PLUGIN-README.md). Candidate 0.1.0 packages seven shared Skills for Codex and Claude Code. It is not a game engine extension. Host runtime compatibility is not established by static package tests.
+[中文](PLUGIN-README.md). Initial release 0.1.0 (limited validation) packages seven shared Skills for Codex and Claude Code. It is not a game engine extension. Host runtime compatibility is not established by static package tests.
 
 ## Before installation
 Use a host version with plugin support. Accounts, policies and model fees belong to the host. No MCP, hooks, background processes, telemetry or secrets are included. Inventory existing manually installed skills before installing; do not overwrite or delete them. Test in an isolated project first.
@@ -59,3 +59,7 @@ For duplicate names, inspect manual installations; for missing references, check
 Original work is [MIT](LICENSE); third-party rights remain separate. Daily research and weekly integration do not imply a release. Publish only after the agreed acceptance gates pass. Source branches, candidate ZIPs, self-hosted catalogs and official directory listings are different states; official listing may require review, account access and terms.
 
 Claude Code auto-update is off by default for custom marketplaces. Publishing a new package does not automatically update users; verify host settings and the installed version.
+
+## 0.1.0 release scope
+
+The owner explicitly approved release with the current evidence and known skipped invocation tests. Linux installation, discovery, uninstall and synthetic local upgrades passed for both hosts; Windows evidence covers only isolated Codex installation/enabling. Real model tasks, remote update propagation, rollback and complete Windows acceptance remain unverified. A GitHub release is not an official store listing or a claim of comprehensive compatibility.

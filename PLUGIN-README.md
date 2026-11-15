@@ -1,6 +1,6 @@
 # 游戏开发插件：安装与使用
 
-[English](PLUGIN-README.en.md)。候选版本 0.1.0；共享七项 Skills，同时提供 Codex portable manifest 与 Claude Code manifest。不是 Unity 编辑器扩展。未经两端实际调用验证，不宣称全面兼容。
+[English](PLUGIN-README.en.md)。首版 0.1.0（按现有验证范围发布）；共享七项 Skills，同时提供 Codex portable manifest 与 Claude Code manifest。不是 Unity 编辑器扩展。未经两端实际调用验证，不宣称全面兼容。
 
 ## 安装前
 
@@ -64,3 +64,7 @@ claude plugin list
 原创内容 [MIT](LICENSE)，第三方资料许可独立。每日研究、每周整合；只有通过约定验收的更新才进入发布步骤。源码分支、候选 ZIP、自建市场和官方目录上架并非同一状态。官方上架可能需账号、审核和条款，不保证自动获批。
 
 Claude Code 的自建 marketplace 自动更新默认关闭；发布新包不代表用户已自动更新，需核对宿主设置与已安装版本。
+
+## 0.1.0 发布范围
+
+用户在知晓真实任务调用跳过及其他未验证项后，明确批准按现状发布。Linux 双宿主安装、发现、卸载与本地合成升级通过；Windows 仅 Codex 隔离安装启用通过。两端真实模型任务、远程更新传播、降级回滚及完整 Windows 验收未通过或未运行。本次 GitHub 发布不是官方商店上架，不构成全面兼容承诺。
