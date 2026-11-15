@@ -1,0 +1,14 @@
+[
+  {
+    "id": "game-development-plugins@game-development-plugins",
+    "version": "0.1.0",
+    "scope": "user",
+    "enabled": true,
+    "installPath": "<ISOLATED_CLAUDE_ROOT>/config/plugins/cache/game-development-plugins/game-development-plugins/0.1.0",
+    "readFromFolder": "<CANDIDATE_ROOT>",
+    "folderVersion": "0.1.0",
+    "installedAt": "2026-11-15T09:03:10.483Z",
+    "lastUpdated": "2026-11-15T09:03:10.483Z",
+    "projectEnabled": false
+  }
+]

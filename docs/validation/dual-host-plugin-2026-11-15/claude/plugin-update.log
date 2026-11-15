@@ -1,0 +1,3 @@
+Checking for updates for plugin "game-development-plugins@game-development-plugins"…
+game-development-plugins is read from its folder, <CANDIDATE_ROOT>: nothing to update. Edits there take effect at the next session start or /reload-plugins.
+✔ game-development-plugins is already at the latest version (0.1.0).

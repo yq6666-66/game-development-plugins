@@ -61,3 +61,20 @@ codex plugin list --json
 [安装](dual-host-plugin-2026-11-15/plugin-add.log)、[安装列表](dual-host-plugin-2026-11-15/plugin-list.log)、[目录添加](dual-host-plugin-2026-11-15/marketplace-add.log)、[技能发现筛选记录](dual-host-plugin-2026-11-15/skills-list-filtered.json)、[卸载](dual-host-plugin-2026-11-15/plugin-remove.log)、[卸载后列表](dual-host-plugin-2026-11-15/plugin-list-after-remove.log)。日志中的临时工作路径已替换为占位符，技能发现记录只保留本插件；其余宿主内置技能与无关环境通知不公开。PATH alias 的临时目录警告原样保留，不影响上述返回结果。
 
 **真实技能调用、升级/降级、Windows、Claude Code 仍未验证。** 本机 alpha 实测不是最低版本或所有 Codex 客户端的兼容承诺。独立代码复核再次运行 27 项测试与分发结构检查通过。该补充仅增加证据，不改变候选发行包、不构成发布或上架。
+
+## 补充：Claude Code 隔离宿主实测（同日后续）
+
+上述初始记录中“环境无 Claude Code”是当时状态，历史记录保留。本次后续经授权从官方 npm 安装 `@anthropic-ai/claude-code@2.1.325` 至隔离目录；独立的 HOME、CLAUDE_CONFIG_DIR 和 npm prefix 不影响用户原有设置。已读取下列实际执行日志，并独立核对详情确有全部 7 项技能及 0 个 Agents/Hooks/MCP/LSP 组件。
+
+| 步骤 | 状态 | 证据 |
+| --- | --- | --- |
+| validate | PASS with warnings | [validate.log](dual-host-plugin-2026-11-15/claude/validate.log) |
+| 本地 marketplace 添加 | PASS | [marketplace-add.log](dual-host-plugin-2026-11-15/claude/marketplace-add.log) |
+| 插件安装、启用 | PASS；版本 0.1.0，enabled=true | [plugin-install.log](dual-host-plugin-2026-11-15/claude/plugin-install.log)、[plugin-list.log](dual-host-plugin-2026-11-15/claude/plugin-list.log) |
+| 宿主组件发现 | PASS；7 项 Skills，其余组件 0 | [plugin-details.log](dual-host-plugin-2026-11-15/claude/plugin-details.log) |
+| update | 仅本地目录 no-op，不是跨版本升级通过 | [plugin-update.log](dual-host-plugin-2026-11-15/claude/plugin-update.log) |
+| 卸载及目录移除 | PASS；卸载后 list=[] | [plugin-uninstall.log](dual-host-plugin-2026-11-15/claude/plugin-uninstall.log)、[plugin-list-after-uninstall.log](dual-host-plugin-2026-11-15/claude/plugin-list-after-uninstall.log)、[marketplace-remove.log](dual-host-plugin-2026-11-15/claude/marketplace-remove.log) |
+
+验证警告：缺少 marketplace description 与官方目录 icon。另有 README 一步安装提示。这些不改变 validator 的通过结果，但**不代表已满足官方上架所有条件**。暂不为消除目录图标警告引入未确认的品牌图；description 和安装入口可随下一候选打包修订。官方目录还需安全扫描、政策审查及账号权限。本轮仅记录证据，不改既有候选包。
+
+**未登录、未发起模型调用、未付费。真实任务调用、跨版本升级/降级及 Windows 仍未验证，正式发布和上架未执行。** 日志只替换隔离路径，没有把宿主估算 token 数当实际用量。后续重新运行的结构检查与 27 项单测不替代以上未验证项。
