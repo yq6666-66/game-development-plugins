@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased · guarded GitHub publication
+
+- Add main-only version-bound release approvals, read-only validation/build and a separate least-privilege publication job.
+- Reject reused tags/releases, historical waivers, missing runtime evidence and mismatched digests; retain failed drafts for reviewed recovery.
+- Add bilingual maintenance guidance and mocked negative tests; no real release/tag or Actions execution was performed for testing.
+
+
 ## 0.1.0 · dual-host packaging 2026-11-15
 
 - Add Codex and Claude Code manifests and local catalogs sharing the existing seven Skills.
