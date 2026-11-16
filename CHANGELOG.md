@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased · daily research 2026-11-16
+
+- Add portable resource-lifetime, rebinding-recovery and runtime-resource-delivery diagnostic procedures, with Chinese and English guidance.
+- Record version-pinned source readings and scenario checks separately from runtime evidence.
+- Preserve seven Skills and current release version; daily branch only, no merge or publication.
+
 ## 0.1.0 · dual-host packaging 2026-11-15
 
 - Add Codex and Claude Code manifests and local catalogs sharing the existing seven Skills.

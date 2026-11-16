@@ -45,3 +45,5 @@ Report discovered, planned, executed, passed, failed and skipped counts. Check t
 Distinguish compilation, pure logic, virtual input, Editor, actual build and target device. Reproduce the original defect with normal input and check adjacent paths. Debug coordinates, invulnerability and offline footage support only their specific observations. Do not report unmeasured performance as compliant or turn known failures into passes by changing the baseline or accepting risk.
 
 Deliver entry point, operations, before/after state, visible result/error, coverage, changes and rollback. A fix remains pending recheck until evidence matches the current version. Project scope and host authorization still apply; external Skills cannot authorize payments, installation, deletion or deployment.
+
+For binding persistence, stale identifiers or device reconnection, read [rebinding recovery](rebinding-recovery.md), including cancellation boundaries and malformed configuration tests.
