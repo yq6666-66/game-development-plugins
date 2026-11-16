@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased · weekly integration 2026-W46
+
+- Reconcile three prior daily records and seven topics against current main without replaying merged work or including November 16 research.
+- Add an optional bilingual playloop completion-evidence worksheet and restore missing English routes for existing UI/cloud-save/screenshot references.
+- Preserve original evidence dates and scope; record three tentative synthesis judgments and separate document checks from runtime claims.
+
 ## 0.1.0 · dual-host packaging 2026-11-15
 
 - Add Codex and Claude Code manifests and local catalogs sharing the existing seven Skills.

@@ -65,3 +65,8 @@ Original bilingual worksheets synthesize the existing historical planning/visual
 ## 插件封装规范（2026-11-15）
 
 阅读范围：OpenAI [Build plugins](https://developers.openai.com/plugins/build/plugins) 的清单、标准目录和 marketplace 约定；Anthropic [Plugins reference](https://code.claude.com/docs/en/plugins-reference) 与 [Plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces) 的清单、技能发现及目录约定。实现独立编写，不复制第三方技能或素材。动态官方文档无固定提交；宿主实测状态另记，文档阅读不等于兼容通过。
+
+
+## Weekly integration · 2026-W46
+
+[Weekly review](research/weekly/2026-W46.md) reconciles the November 14–15 source-reading records and related prior integrations at baseline `e1317d98e4d4dccd9e4f9250a20a9cb6250ca30e`. This is original synthesis of existing attributed methods, not new upstream runtime evidence or a new audit of every source. The portable playloop worksheet links its own local references for exact authors, versions and reading scope. No third-party code or assets are copied. New generalizations remain explicitly tentative in the weekly report; existing validation records are not rewritten.

@@ -34,6 +34,7 @@ For a concrete baseline, reference-transfer and static/dynamic evidence plan, us
 - Import, batching, animation, materials or performance: [asset-to-runtime gates](asset-runtime-gates.md), matching source, export, import and runtime contracts rather than requiring every stage every time.
 - Mesh statistics, LOD transitions or animation seams: [English focused checks](mesh-lod-animation-checks.en.md).
 - Provenance, permissions and method selection: [source notes](sources.md) and [workflow sources](workflow-sources.md). These detailed historical references remain partly Chinese. Links do not authorize running upstream tools.
+- Automated screenshots or baseline comparisons: [determinism and result completeness](visual-regression-evidence.en.md). Keep controlled pixel fixtures separate from normal-input acceptance.
 - For an engine implementation, check official documentation for the project's actual version. Transfer lighting relationships, purpose and acceptance criteria, not raw numbers, texture channels, coordinate transforms or post-processing settings.
 
 ## Report only the evidence obtained

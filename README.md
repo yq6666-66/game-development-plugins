@@ -89,3 +89,8 @@ python3 -m unittest discover -s tests -v
 ## 每日研究 · 2026-11-15
 
 [三项蒸馏](docs/research/daily/2026-11-15.md)：自动截图的就绪与结果完整性、UI事件与持续输入隔离、云存档并发证据。增补两条主线的目录内中英参考，仍为七项Skills；[检查范围](docs/validation/daily-2026-11-15.md)不包含引擎或游戏运行。
+
+
+## 每周整合 · 2026-W46
+
+[首周复盘](docs/research/weekly/2026-W46.md)覆盖 11-14 至 11-15 的三份日报、七个主题，保留已合并成果并新增双语完成证据卡、补齐英文专项路由。11-16 研究留待下周；[本轮验证](docs/validation/weekly-2026-W46.md)不代表游戏运行或发布。

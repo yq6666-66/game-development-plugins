@@ -30,6 +30,8 @@ UI may own presentation state such as focus, but should not duplicate game rules
 - Incorrect restored relationships or missing information despite subtitles: [recovery and audio information](recovery-and-audio-information.en.md).
 - Async false positives, state divergence or testing the tests: [async and divergence](async-and-divergence.en.md).
 - Rebinding, text entry, multilingual layout or multi-step diagnosis: [input, text and intermediate evidence](input-text-evidence.en.md).
+- Menu event/held-state, focus and pause issues: [UI input isolation](ui-input-isolation.en.md); respect modal versus nonmodal behavior.
+- Existing cloud-save disconnects, concurrency or false success: [cloud-save evidence](cloud-save-evidence.en.md); do not introduce a service.
 - Method provenance and rejected assumptions: [sources](sources.md). Historical detailed references remain partly Chinese. Code examples are not tested implementations. Do not add systems merely to satisfy a checklist.
 
 ## Assess presentation after correctness
@@ -39,6 +41,8 @@ Organize information by the player's decision as persistent, contextual or on-de
 Separate visual offsets from physics/rule transforms, with an owner and recovery value. Test repeated effects, pause and restart to catch drift or time-scale changes that override pause. Consider reduced effects for significant flashing/shaking. Hit-stop or knockback that changes timing/rules is a gameplay change, not just decoration.
 
 ## Validate the tests and deliver scoped results
+
+When completion or its evidence chain is ambiguous, use the optional [completion evidence worksheet](completion-evidence-card.en.md) to separate operation outcomes, check verdicts and unexecuted scope.
 
 Report discovered, planned, executed, passed, failed and skipped counts. Check that assertions cover the defect; use a negative control in an authorized isolated copy when useful. Exit code zero, an empty test list or a fixture silently repairing configuration is not proof of gameplay success.
 
