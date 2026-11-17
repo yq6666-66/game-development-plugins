@@ -65,3 +65,7 @@ Original bilingual worksheets synthesize the existing historical planning/visual
 ## 插件封装规范（2026-11-15）
 
 阅读范围：OpenAI [Build plugins](https://developers.openai.com/plugins/build/plugins) 的清单、标准目录和 marketplace 约定；Anthropic [Plugins reference](https://code.claude.com/docs/en/plugins-reference) 与 [Plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces) 的清单、技能发现及目录约定。实现独立编写，不复制第三方技能或素材。动态官方文档无固定提交；宿主实测状态另记，文档阅读不等于兼容通过。
+
+## Daily research · 2026-11-17
+
+[Reading record](research/daily/2026-11-17.md) separates pinned Godot documentation, partial Valve API/guide reading and a Kenney candidate with a blocked guide. Original bilingual synthesis only; no third-party source code, assets or screenshots redistributed. Runtime, asset-package licensing and platform certification remain unverified.

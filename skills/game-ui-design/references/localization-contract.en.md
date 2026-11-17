@@ -1,0 +1,12 @@
+# Localization semantics and navigation contract
+
+[中文](localization-contract.md). Apply only to declared languages and input methods. Do not add languages, font dependencies or translation services. Beyond existing font/layout checks, examine what gets translated, navigation order and exported behavior.
+
+1. Classify strings on one real screen as product messages, user-authored text or structured identifiers. Resolve messages with semantic context; a player name matching a message key must remain user text. Do not translate or mirror paths, numbers and prose indiscriminately.
+2. Separate pseudolocalization (translation coverage and length pressure) from real supported-language samples (glyphs, shaping, direction and meaning). Passing the former cannot pass the latter. Record the actual samples, not blanket language coverage.
+3. After changing language, exercise both layout and operation. Test directional/D-pad neighbors separately from Tab order where supported; mirrored containers do not establish correct navigation. Use the agreed fallback after a focused item disappears and return to a valid entry on cancel. Do not let direct test focus assignment conceal an inaccessible player path.
+4. Check the same text in an authorized standalone delivery sample. Where dictionary segmentation data is needed, inspect the actual version/export settings. Editor success is not exported evidence. Restore temporary test-language overrides without erasing player preferences or the intended default.
+
+Record language, string category, input route, real font/layout settings, outcome and uncovered cases. Synthetic counterexamples: a name changes because it matches a translation key; expanded Latin text fits but Chinese glyphs are missing; mirrored layout looks correct while D-pad order is wrong. These reject a blanket pass; they were not run in a game here. Do not disable all translation or force one text direction to hide failures.
+
+[Fixed sources and reading limits](localization-contract.md): Godot contributors' documentation snapshot `2c6cc131ac13f14443e052ccc91393986f37ae26`, read 2026-11-17. Internationalization text through Testing translations, plus the full navigation text and examples; no images, linked demos or engine execution. The snapshot contains historical DynamicFont wording, not a verified current API recipe. Rechecking navigation after language changes is our synthesis. Upstream documentation is CC BY 3.0; no code or assets are redistributed.

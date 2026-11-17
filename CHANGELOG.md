@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased · daily research 2026-11-17
+
+- Add bilingual UI references for localization semantics/navigation and action-origin glyph fallback.
+- Keep Kenney Input Prompts as an untested research candidate, not a cleared recommendation.
+- Preserve seven Skills and separate scenario review from unperformed host/engine/device tests.
+
+
 ## 0.1.0 · dual-host packaging 2026-11-15
 
 - Add Codex and Claude Code manifests and local catalogs sharing the existing seven Skills.
