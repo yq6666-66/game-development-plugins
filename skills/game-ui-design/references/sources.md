@@ -10,3 +10,7 @@ The documents explain initial focus, hidden-control focus loss, explicit neighbo
 
 信息层级、屏幕契约和焦点恢复样本为本项目综合建议。未观看文档图片或运行示例，未完成引擎、真机或用户测试。
 Information hierarchy, screen contracts and fallback-focus examples are our synthesis. No image inspection or example execution; no engine, hardware or user test.
+
+## Daily research · 2026-11-18
+
+Microsoft XAG 102 and 117, updated 2026-11-13, read 2026-11-18: [composited readability](composited-readability.md) and [motion settings](motion-setting-contract.md) preserve exact URLs and reading limits. Original bilingual synthesis only; no screenshots, video or upstream code reused. No new Skill, engine dependency or runtime validation.

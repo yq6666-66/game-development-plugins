@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased · daily research 2026-11-18
+
+- Extend the UI Skill with paired composited-readability and reduced-motion state-contract references.
+- Preserve source-reading, document walkthrough and runtime boundaries; no new Skill or dependency.
+
+
 ## 0.1.0 · dual-host packaging 2026-11-15
 
 - Add Codex and Claude Code manifests and local catalogs sharing the existing seven Skills.
