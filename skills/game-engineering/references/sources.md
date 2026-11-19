@@ -10,3 +10,7 @@ The Godot document supports explicit dependencies and lifetime-aware scene relat
 
 本轮只核对文档，未运行这些项目或目标引擎。模块切片、双实例反例与交付格式是本项目推导的工作方法，不是作者已验证结果。
 Document review only. Vertical slices, two-instance counterexamples and delivery fields are our synthesis, not upstream runtime evidence.
+
+## 2026-11-19
+
+新增目录内[loading-readiness](loading-readiness.md)及英文对照，含固定官方来源、读取范围与原创流程。仅资料研究，未运行引擎。 / Added a bilingual, source-pinned reference; document research only, no engine execution.

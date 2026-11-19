@@ -13,3 +13,5 @@ Implement one authorized vertical slice while preserving callers and a baseline.
 Deliver changed paths, interface decisions, alternatives, commands, observed results and recovery. Label static analysis, compilation and runtime separately; a unit test does not establish scene assembly. Missing device evidence is unverified. Escalate material scope changes rather than expanding the architecture. [Sources](sources.md).
 
 Prefer existing runtime dependencies. For a necessary missing dependency, follow explicit task authorization and host rules rather than refusing a new project solely because no dependencies exist yet. This Skill itself does not authorize installation, new services, engine upgrades or publication.
+
+For loading, transitions or progress, consult [loading readiness and commit ownership](loading-readiness.en.md).

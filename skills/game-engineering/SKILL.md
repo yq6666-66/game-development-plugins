@@ -32,3 +32,5 @@ description: Design or implement a bounded game project structure, module bounda
 列改动文件、所有权/接口决定、保留/拒绝的替代、执行命令、实际结果及恢复方式。只有图与源码审阅时标静态；编译成功不是运行成功，单元测试也不覆盖场景装配。未能验证的目标平台、设备与外部依赖单列。范围发生实质变化先交回决策，不顺手扩建整套系统。
 
 [来源与适用边界](references/sources.md)保留阅读版本与被过滤的来源建议。
+
+加载、切场景或进度反馈相关任务，按需阅读[加载阶段与提交合同](references/loading-readiness.md)。
