@@ -20,3 +20,7 @@
 - 作者的成本和性能属于其单次实验，不是本项目保证。不要运行其付费/自动权限脚本来替代项目的确认点。
 
 [Saltline 原作入口](https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp)本次无法读取，未运行、未审计；上述复现仓库不是 Saltline 源码。不得把复现实验的细节归为 Saltline 已验证实现。
+
+## 2026-11-19
+
+新增目录内[pipeline-readiness](pipeline-readiness.md)及英文对照，含固定官方来源、读取范围与原创流程。仅资料研究，未运行引擎。 / Added a bilingual, source-pinned reference; document research only, no engine execution.

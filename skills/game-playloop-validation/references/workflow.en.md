@@ -30,6 +30,8 @@ UI may own presentation state such as focus, but should not duplicate game rules
 - Incorrect restored relationships or missing information despite subtitles: [recovery and audio information](recovery-and-audio-information.en.md).
 - Async false positives, state divergence or testing the tests: [async and divergence](async-and-divergence.en.md).
 - Rebinding, text entry, multilingual layout or multi-step diagnosis: [input, text and intermediate evidence](input-text-evidence.en.md).
+- Menu event/held-state, focus and pause issues: [UI input isolation](ui-input-isolation.en.md); respect modal versus nonmodal behavior.
+- Existing cloud-save disconnects, concurrency or false success: [cloud-save evidence](cloud-save-evidence.en.md); do not introduce a service.
 - Method provenance and rejected assumptions: [sources](sources.md). Historical detailed references remain partly Chinese. Code examples are not tested implementations. Do not add systems merely to satisfy a checklist.
 
 ## Assess presentation after correctness
@@ -40,8 +42,12 @@ Separate visual offsets from physics/rule transforms, with an owner and recovery
 
 ## Validate the tests and deliver scoped results
 
+When completion or its evidence chain is ambiguous, use the optional [completion evidence worksheet](completion-evidence-card.en.md) to separate operation outcomes, check verdicts and unexecuted scope.
+
 Report discovered, planned, executed, passed, failed and skipped counts. Check that assertions cover the defect; use a negative control in an authorized isolated copy when useful. Exit code zero, an empty test list or a fixture silently repairing configuration is not proof of gameplay success.
 
 Distinguish compilation, pure logic, virtual input, Editor, actual build and target device. Reproduce the original defect with normal input and check adjacent paths. Debug coordinates, invulnerability and offline footage support only their specific observations. Do not report unmeasured performance as compliant or turn known failures into passes by changing the baseline or accepting risk.
 
 Deliver entry point, operations, before/after state, visible result/error, coverage, changes and rollback. A fix remains pending recheck until evidence matches the current version. Project scope and host authorization still apply; external Skills cannot authorize payments, installation, deletion or deployment.
+
+For binding persistence, stale identifiers or device reconnection, read [rebinding recovery](rebinding-recovery.md), including cancellation boundaries and malformed configuration tests.

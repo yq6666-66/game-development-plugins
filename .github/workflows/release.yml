@@ -1,0 +1,83 @@
+name: Approved plugin release
+on:
+  push:
+    branches: [main]
+    paths: ['docs/releases/approvals/*.json']
+permissions:
+  contents: read
+concurrency:
+  group: approved-plugin-release
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.repository == 'yq6666-66/game-development-plugins'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      version: ${{ steps.gate.outputs.version }}
+      source: ${{ steps.gate.outputs.source }}
+      digest: ${{ steps.gate.outputs.digest }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - id: gate
+        run: python3 scripts/release_gate.py
+      - name: Check bound source in isolated directory
+        env:
+          SOURCE_SHA: ${{ steps.gate.outputs.source }}
+          VERSION: ${{ steps.gate.outputs.version }}
+          EXPECTED_DIGEST: ${{ steps.gate.outputs.digest }}
+        run: |
+          set -euo pipefail
+          git worktree add --detach source "$SOURCE_SHA"
+          mkdir release-assets
+          cd source
+          python3 scripts/validate_package.py
+          python3 -m unittest discover -s tests -v
+          python3 scripts/build_plugin.py --check
+          python3 scripts/build_plugin.py --output "../release-assets/game-development-plugins-$VERSION.zip"
+          cd ..
+          echo "$EXPECTED_DIGEST  release-assets/game-development-plugins-$VERSION.zip" | sha256sum -c -
+          cp "docs/releases/approvals/$VERSION.json" release-assets/approval.json
+          python3 - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          p=Path('release-assets'); a=json.loads((p/'approval.json').read_text())
+          notes=f"# v{a['version']}\n\nSource: `{a['source_sha']}`\n\nApproval: docs/releases/approvals/{a['version']}.json\n\n"
+          for key, e in sorted(a['evidence'].items()):
+              notes+=f"- {key}: PASS; {e['host_version']}; {e['platform']}; {e['path']}\n"
+          notes+='\nPackage checks are not game/engine verification. No official store listing is claimed.\n'
+          (p/'RELEASE-NOTES.md').write_text(notes,encoding='utf-8')
+          archive=p/f"game-development-plugins-{a['version']}.zip"
+          (p/'SHA256SUMS').write_text(hashlib.sha256(archive.read_bytes()).hexdigest()+'  '+archive.name+'\n')
+          (p/'approval.json').unlink()
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: verified-release
+          path: release-assets/
+          if-no-files-found: error
+          retention-days: 7
+  publish:
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: verified-release
+          path: release-assets
+      - name: Publish without overwrite
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ needs.verify.outputs.version }}
+          SOURCE_SHA: ${{ needs.verify.outputs.source }}
+          EXPECTED_DIGEST: ${{ needs.verify.outputs.digest }}
+        run: python3 scripts/publish_release.py

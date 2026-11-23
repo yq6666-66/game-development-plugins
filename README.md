@@ -89,3 +89,29 @@ python3 -m unittest discover -s tests -v
 ## 每日研究 · 2026-11-15
 
 [三项蒸馏](docs/research/daily/2026-11-15.md)：自动截图的就绪与结果完整性、UI事件与持续输入隔离、云存档并发证据。增补两条主线的目录内中英参考，仍为七项Skills；[检查范围](docs/validation/daily-2026-11-15.md)不包含引擎或游戏运行。
+
+## 每日研究 · 2026-11-16
+
+[Research](docs/research/daily/2026-11-16.md) · [Validation](docs/validation/daily-2026-11-16.md). 资源生命周期、重绑定恢复和交付资源解析：三项目录内双语参考，源码/文档检查与实际运行分别报告。
+
+## 每日研究 · 2026-11-17
+
+[本轮记录](docs/research/daily/2026-11-17.md)：本地化语义/导航与动作提示来源两项研究，另留一项未验收素材候选。新增UI技能双语专题，不新增Skill。[验证范围](docs/validation/daily-2026-11-17.md)不含宿主、引擎和设备运行。
+
+## 每日研究 · 2026-11-18
+
+[两项蒸馏](docs/research/daily/2026-11-18.md)：合成画面的可读性证据与减少动态效果的状态合同。现有 UI Skill 新增中英参考，无新 Skill；[验证范围](docs/validation/daily-2026-11-18.md)不包含引擎、宿主或设备运行。
+
+## 2026-11-19
+
+[两项每日蒸馏](docs/research/daily/2026-11-19.md)：加载阶段与迟到结果提交、首次绘制管线证据。七项 Skill 不变；[验证边界](docs/validation/daily-2026-11-19.md)。
+
+## 每周整合 · 2026-W46
+
+[首周复盘](docs/research/weekly/2026-W46.md)覆盖 11-14 至 11-15 的三份日报、七个主题，保留已合并成果并新增双语完成证据卡、补齐英文专项路由。11-16 研究留待下周；[本轮验证](docs/validation/weekly-2026-W46.md)不代表游戏运行或发布。
+
+## 每周整合 · 2026-W47
+
+[周报](docs/research/weekly/2026-W47.md)：整合交付资源、加载阶段与动态 HUD 可读性三项，仍为七项 Skill。[验证范围](docs/validation/weekly-2026-W47.md)不含引擎运行。
+
+后续发行维护参见[受控 GitHub 自动发布](docs/releases/README.md)；研究分支不触发发行，需版本与运行验收证据绑定。

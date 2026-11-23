@@ -47,8 +47,12 @@ description: Diagnose and improve visual readability in an existing game or an a
 
 资产统计、LOD切换或动画接缝问题，按需读 [专项检查](references/mesh-lod-animation-checks.md)（[English](references/mesh-lod-animation-checks.en.md)），不要以源网格或静帧代替实际运行。
 
+换场景后内存上涨或重进卡顿时，读 [资源生命周期](references/resource-lifetime.md)（含英文流程），按所有权、共享消费者和预热后趋势验收，不以统计归零为通用目标。
+
 ## 5. 给出范围明确的结论
 
 交付基线、改动与回退方式、入口和真实输入步骤、相同条件对照、实际检查 M/N 项、性能测量条件及未覆盖风险。用 PASS / FAIL / BLOCKED / 未验证标记**具体检查**，不把整款游戏笼统判绿。
 
 离线渲染、调试相机、脚本跳转和受控录像不替代玩家操作；离线视频帧率不证明实时性能。模拟设备、Editor、实际构建及目标设备分别报告。相关版本或依赖变化后重评旧证据。当前任务授权不自动扩展到引擎迁移、付费生成、发布或安装上游工具。
+
+首次绘制卡顿相关任务，按需阅读[管线就绪与缓存证据](references/pipeline-readiness.md)。

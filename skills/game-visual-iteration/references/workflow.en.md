@@ -34,6 +34,7 @@ For a concrete baseline, reference-transfer and static/dynamic evidence plan, us
 - Import, batching, animation, materials or performance: [asset-to-runtime gates](asset-runtime-gates.md), matching source, export, import and runtime contracts rather than requiring every stage every time.
 - Mesh statistics, LOD transitions or animation seams: [English focused checks](mesh-lod-animation-checks.en.md).
 - Provenance, permissions and method selection: [source notes](sources.md) and [workflow sources](workflow-sources.md). These detailed historical references remain partly Chinese. Links do not authorize running upstream tools.
+- Automated screenshots or baseline comparisons: [determinism and result completeness](visual-regression-evidence.en.md). Keep controlled pixel fixtures separate from normal-input acceptance.
 - For an engine implementation, check official documentation for the project's actual version. Transfer lighting relationships, purpose and acceptance criteria, not raw numbers, texture channels, coordinate transforms or post-processing settings.
 
 ## Report only the evidence obtained
@@ -41,3 +42,7 @@ For a concrete baseline, reference-transfer and static/dynamic evidence plan, us
 Deliver baseline, changes and recovery path, real entry/input steps, equal-condition comparisons, actual checks completed versus planned, performance measurement conditions and uncovered risks. Mark specific checks PASS, FAIL, BLOCKED or unverified, not the whole game green.
 
 Offline renders, debug cameras, scripted position changes and controlled recordings do not replace player input; video FPS is not runtime performance. Distinguish simulated devices, Editor, shipped build and target hardware. Reassess old evidence when relevant versions change. Current authority does not automatically cover engine migration, paid generation, publication or installation.
+
+For memory growth or re-entry stalls, use the [resource lifetime procedure](resource-lifetime.md), including shared consumers, warm baselines and a scoped negative control.
+
+For first-draw stalls, consult [pipeline readiness and cache evidence](pipeline-readiness.en.md).

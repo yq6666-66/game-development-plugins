@@ -87,3 +87,29 @@ Two new standalone engineering/UI Skills include complete English workflows and 
 ## Daily research · 2026-11-15
 
 [Three topics](docs/research/daily/2026-11-15.md): screenshot readiness/result completeness, UI event versus held-input isolation, and cloud-save conflict evidence. Portable bilingual references extend the two existing tracks; seven Skills remain. [Validation scope](docs/validation/daily-2026-11-15.md) excludes engine/game execution.
+
+## Daily research · 2026-11-16
+
+[Research](docs/research/daily/2026-11-16.md) · [Validation](docs/validation/daily-2026-11-16.md). Three portable bilingual references cover resource lifetime, rebinding recovery and packaged resource resolution. Source review is distinct from runtime validation.
+
+## Daily research · 2026-11-17
+
+[Record](docs/research/daily/2026-11-17.md): two studies on localization semantics/navigation and action-origin prompts, plus one unvalidated asset candidate. Bilingual UI references, no new Skill. [Validation](docs/validation/daily-2026-11-17.md) excludes host, engine and device execution.
+
+## Daily research · 2026-11-18
+
+[Two themes](docs/research/daily/2026-11-18.md): composited-frame readability and reduced-motion state contracts. Paired references extend the UI Skill; no new Skill. [Validation](docs/validation/daily-2026-11-18.md) does not include engine, host or hardware execution.
+
+## 2026-11-19
+
+[Daily research](docs/research/daily/2026-11-19.md): staged loading/late-result ownership and first-draw pipeline evidence. Seven skills remain; [validation scope](docs/validation/daily-2026-11-19.md).
+
+## Weekly integration · 2026-W46
+
+[First weekly review](docs/research/weekly/2026-W46.md) covers three research records and seven topics from November 14–15. Existing merged results are retained; a bilingual completion-evidence worksheet and missing English reference routes are added. November 16 research belongs to the next week. [Validation](docs/validation/weekly-2026-W46.md) does not establish game execution or a release.
+
+## Weekly integration · 2026-W47
+
+[Weekly report](docs/research/weekly/2026-W47.md): three additions cover packaged resources, loading readiness and composited HUD readability. Seven skills remain. [Validation](docs/validation/weekly-2026-W47.md) does not include engine runs.
+
+For future releases, see [guarded GitHub publication](docs/releases/README.en.md). Research branches do not publish; version-bound runtime evidence is required.

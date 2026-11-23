@@ -27,6 +27,12 @@ description: Design and implement a bounded game screen, HUD or menu interaction
 
 ## 验证设计可操作
 
+关键界面元素压在动态画面或半透明层上时，用[合成画面可读性证据](references/composited-readability.md)选取最不利背景，分开记录测量与实际操作。
+
 使用正常输入走进入→操作→返回，覆盖与本屏相关的取消、重复点击、焦点目标消失和失败反馈。比较相同状态、分辨率的前后画面；另测支持范围内的长文/窄屏，不用更有利机位掩盖问题。静帧只能证明布局观察，模拟尺寸不是实机输入验证。
 
 交付状态/焦点表、改动、截图与操作记录，分别标记设计审阅、实现检查、宿主/引擎执行与设备覆盖。完整无障碍或可用性结论需要相应用户与设备证据；未做则保留未知。[来源取舍](references/sources.md)。
+
+按需深入：多语言界面读[本地化语义与导航合同](references/localization-contract.md)；设备图标或改键提示读[动作提示来源合同](references/action-glyph-contract.md)。不因此新增语言或输入平台。
+
+减少动效设置需验证实际生效、重入及信息保留时，读[动态效果设置合同](references/motion-setting-contract.md)（[English](references/motion-setting-contract.en.md)）。这两项补充设计与操作证据，不是通用无障碍认证。

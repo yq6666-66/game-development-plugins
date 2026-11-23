@@ -1,5 +1,34 @@
 # Changelog
 
+## Unreleased · daily research 2026-11-16
+
+- Add portable resource-lifetime, rebinding-recovery and runtime-resource-delivery diagnostic procedures, with Chinese and English guidance.
+- Record version-pinned source readings and scenario checks separately from runtime evidence.
+- Preserve seven Skills and current release version; daily branch only, no merge or publication.
+
+## Unreleased · daily research 2026-11-17
+
+- Add bilingual UI references for localization semantics/navigation and action-origin glyph fallback.
+- Keep Kenney Input Prompts as an untested research candidate, not a cleared recommendation.
+- Preserve seven Skills and separate scenario review from unperformed host/engine/device tests.
+
+## Unreleased · daily research 2026-11-18
+
+- Extend the UI Skill with paired composited-readability and reduced-motion state-contract references.
+- Preserve source-reading, document walkthrough and runtime boundaries; no new Skill or dependency.
+
+## Unreleased · weekly integration 2026-W46
+
+- Reconcile three prior daily records and seven topics against current main without replaying merged work or including November 16 research.
+- Add an optional bilingual playloop completion-evidence worksheet and restore missing English routes for existing UI/cloud-save/screenshot references.
+- Preserve original evidence dates and scope; record three tentative synthesis judgments and separate document checks from runtime claims.
+
+## Unreleased · guarded GitHub publication
+
+- Add main-only version-bound release approvals, read-only validation/build and a separate least-privilege publication job.
+- Reject reused tags/releases, historical waivers, missing runtime evidence and mismatched digests; retain failed drafts for reviewed recovery.
+- Add bilingual maintenance guidance and mocked negative tests; no real release/tag or Actions execution was performed for testing.
+
 ## 0.1.0 · dual-host packaging 2026-11-15
 
 - Add Codex and Claude Code manifests and local catalogs sharing the existing seven Skills.
@@ -101,3 +130,11 @@
 
 - Add bilingual async-result, fixture-cleanup, divergence-localization and known-bad-control guidance from pinned GUT and abagames readings.
 - Distinguish finite evidence from equivalence or causal proof; no upstream runtime or fixture execution claimed.
+
+## 2026-11-19
+
+Added bilingual staged-loading and pipeline-readiness references and routing. Research and package checks only, not engine validation. [Daily record](docs/research/daily/2026-11-19.md).
+
+## 2026-W47 integration candidate
+
+- Integrated three scoped references: runtime resource delivery, loading readiness, and composited HUD readability. See the [weekly decision log](docs/research/weekly/2026-W47.md).
