@@ -101,3 +101,7 @@
 
 - Add bilingual async-result, fixture-cleanup, divergence-localization and known-bad-control guidance from pinned GUT and abagames readings.
 - Distinguish finite evidence from equivalence or causal proof; no upstream runtime or fixture execution claimed.
+
+## 2026-W47 integration candidate
+
+- Integrated three scoped references: runtime resource delivery, loading readiness, and composited HUD readability. See the [weekly decision log](docs/research/weekly/2026-W47.md).

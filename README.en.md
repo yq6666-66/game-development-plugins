@@ -87,3 +87,7 @@ Two new standalone engineering/UI Skills include complete English workflows and 
 ## Daily research · 2026-11-15
 
 [Three topics](docs/research/daily/2026-11-15.md): screenshot readiness/result completeness, UI event versus held-input isolation, and cloud-save conflict evidence. Portable bilingual references extend the two existing tracks; seven Skills remain. [Validation scope](docs/validation/daily-2026-11-15.md) excludes engine/game execution.
+
+## Weekly integration · 2026-W47
+
+[Weekly report](docs/research/weekly/2026-W47.md): three additions cover packaged resources, loading readiness and composited HUD readability. Seven skills remain. [Validation](docs/validation/weekly-2026-W47.md) does not include engine runs.
